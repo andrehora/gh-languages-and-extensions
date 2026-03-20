@@ -218,7 +218,7 @@ def write_readme(type_counts, popular_names, all_langs):
         "| File | Count | Description |\n"
         "|------|-------|-------------|\n"
         f"| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | {total} | Languages and extensions |\n"
-        f"| [`popular_languages.json`](data/popular_languages.json) / [`csv`](data/popular_languages.csv) | {len(popular_names)} | Popular languages and extensions |"
+        f"| [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | {len(popular_names)} | Popular languages and extensions |"
     )
     content = _replace_between(content, "<!-- summary:start -->", "<!-- summary:end -->", summary_rows)
 
