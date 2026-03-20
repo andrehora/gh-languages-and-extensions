@@ -1,0 +1,466 @@
+{
+  "C": {
+    "type": "programming",
+    "extensions": [
+      ".c",
+      ".cats",
+      ".h",
+      ".h.in",
+      ".idc"
+    ]
+  },
+  "C#": {
+    "type": "programming",
+    "aliases": [
+      "csharp",
+      "cake",
+      "cakescript"
+    ],
+    "extensions": [
+      ".cs",
+      ".cake",
+      ".cs.pp",
+      ".csx",
+      ".linq"
+    ]
+  },
+  "C++": {
+    "type": "programming",
+    "aliases": [
+      "cpp"
+    ],
+    "extensions": [
+      ".cpp",
+      ".c++",
+      ".cc",
+      ".cp",
+      ".cppm",
+      ".cxx",
+      ".h",
+      ".h++",
+      ".hh",
+      ".hpp",
+      ".hxx",
+      ".inc",
+      ".inl",
+      ".ino",
+      ".ipp",
+      ".ixx",
+      ".re",
+      ".tcc",
+      ".tpp",
+      ".txx"
+    ]
+  },
+  "CoffeeScript": {
+    "type": "programming",
+    "aliases": [
+      "coffee",
+      "coffee-script"
+    ],
+    "filenames": [
+      "Cakefile"
+    ],
+    "extensions": [
+      ".coffee",
+      "._coffee",
+      ".cake",
+      ".cjsx",
+      ".iced"
+    ]
+  },
+  "CSS": {
+    "type": "markup",
+    "extensions": [
+      ".css"
+    ]
+  },
+  "Dart": {
+    "type": "programming",
+    "extensions": [
+      ".dart"
+    ]
+  },
+  "DM": {
+    "type": "programming",
+    "aliases": [
+      "byond"
+    ],
+    "extensions": [
+      ".dm"
+    ]
+  },
+  "Elixir": {
+    "type": "programming",
+    "filenames": [
+      "mix.lock"
+    ],
+    "extensions": [
+      ".ex",
+      ".exs"
+    ]
+  },
+  "Go": {
+    "type": "programming",
+    "aliases": [
+      "golang"
+    ],
+    "extensions": [
+      ".go"
+    ]
+  },
+  "Groovy": {
+    "type": "programming",
+    "filenames": [
+      "Jenkinsfile"
+    ],
+    "extensions": [
+      ".groovy",
+      ".grt",
+      ".gtpl",
+      ".gvy"
+    ]
+  },
+  "HTML": {
+    "type": "markup",
+    "aliases": [
+      "xhtml"
+    ],
+    "extensions": [
+      ".html",
+      ".hta",
+      ".htm",
+      ".html.hl",
+      ".inc",
+      ".xht",
+      ".xhtml"
+    ]
+  },
+  "Java": {
+    "type": "programming",
+    "extensions": [
+      ".java",
+      ".jav",
+      ".jsh"
+    ]
+  },
+  "JavaScript": {
+    "type": "programming",
+    "aliases": [
+      "js",
+      "node"
+    ],
+    "filenames": [
+      "Jakefile"
+    ],
+    "extensions": [
+      ".js",
+      "._js",
+      ".bones",
+      ".cjs",
+      ".es",
+      ".es6",
+      ".frag",
+      ".gs",
+      ".jake",
+      ".javascript",
+      ".jsb",
+      ".jscad",
+      ".jsfl",
+      ".jslib",
+      ".jsm",
+      ".jspre",
+      ".jss",
+      ".jsx",
+      ".mjs",
+      ".njs",
+      ".pac",
+      ".sjs",
+      ".ssjs",
+      ".xsjs",
+      ".xsjslib"
+    ]
+  },
+  "Kotlin": {
+    "type": "programming",
+    "extensions": [
+      ".kt",
+      ".ktm",
+      ".kts"
+    ]
+  },
+  "Objective-C": {
+    "type": "programming",
+    "aliases": [
+      "obj-c",
+      "objc",
+      "objectivec"
+    ],
+    "extensions": [
+      ".m",
+      ".h"
+    ]
+  },
+  "Perl": {
+    "type": "programming",
+    "aliases": [
+      "cperl"
+    ],
+    "filenames": [
+      ".latexmkrc",
+      "Makefile.PL",
+      "Rexfile",
+      "ack",
+      "cpanfile",
+      "latexmkrc"
+    ],
+    "extensions": [
+      ".pl",
+      ".al",
+      ".cgi",
+      ".fcgi",
+      ".perl",
+      ".ph",
+      ".plx",
+      ".pm",
+      ".psgi",
+      ".t"
+    ]
+  },
+  "PHP": {
+    "type": "programming",
+    "aliases": [
+      "inc"
+    ],
+    "filenames": [
+      ".php",
+      ".php_cs",
+      ".php_cs.dist",
+      "Phakefile"
+    ],
+    "extensions": [
+      ".php",
+      ".aw",
+      ".ctp",
+      ".fcgi",
+      ".inc",
+      ".php3",
+      ".php4",
+      ".php5",
+      ".phps",
+      ".phpt"
+    ]
+  },
+  "PowerShell": {
+    "type": "programming",
+    "aliases": [
+      "posh",
+      "pwsh"
+    ],
+    "extensions": [
+      ".ps1",
+      ".psd1",
+      ".psm1"
+    ]
+  },
+  "Python": {
+    "type": "programming",
+    "aliases": [
+      "py",
+      "py3",
+      "python3",
+      "rusthon"
+    ],
+    "filenames": [
+      ".gclient",
+      "DEPS",
+      "SConscript",
+      "SConstruct",
+      "wscript"
+    ],
+    "extensions": [
+      ".py",
+      ".cgi",
+      ".fcgi",
+      ".gyp",
+      ".gypi",
+      ".lmi",
+      ".py3",
+      ".pyde",
+      ".pyi",
+      ".pyp",
+      ".pyt",
+      ".pyw",
+      ".rpy",
+      ".spec",
+      ".tac",
+      ".wsgi",
+      ".xpy"
+    ]
+  },
+  "Ruby": {
+    "type": "programming",
+    "aliases": [
+      "jruby",
+      "macruby",
+      "rake",
+      "rb",
+      "rbx"
+    ],
+    "filenames": [
+      ".irbrc",
+      ".pryrc",
+      ".simplecov",
+      "Appraisals",
+      "Berksfile",
+      "Brewfile",
+      "Buildfile",
+      "Capfile",
+      "Dangerfile",
+      "Deliverfile",
+      "Fastfile",
+      "Gemfile",
+      "Guardfile",
+      "Jarfile",
+      "Mavenfile",
+      "Podfile",
+      "Puppetfile",
+      "Rakefile",
+      "Snapfile",
+      "Steepfile",
+      "Thorfile",
+      "Vagrantfile",
+      "buildfile"
+    ],
+    "extensions": [
+      ".rb",
+      ".builder",
+      ".eye",
+      ".fcgi",
+      ".gemspec",
+      ".god",
+      ".jbuilder",
+      ".mspec",
+      ".pluginspec",
+      ".podspec",
+      ".prawn",
+      ".rabl",
+      ".rake",
+      ".rbi",
+      ".rbuild",
+      ".rbw",
+      ".rbx",
+      ".ru",
+      ".ruby",
+      ".spec",
+      ".thor",
+      ".watchr"
+    ]
+  },
+  "Rust": {
+    "type": "programming",
+    "aliases": [
+      "rs"
+    ],
+    "extensions": [
+      ".rs",
+      ".rs.in"
+    ]
+  },
+  "Scala": {
+    "type": "programming",
+    "extensions": [
+      ".scala",
+      ".kojo",
+      ".sbt",
+      ".sc"
+    ]
+  },
+  "Shell": {
+    "type": "programming",
+    "aliases": [
+      "sh",
+      "shell-script",
+      "bash",
+      "zsh",
+      "envrc"
+    ],
+    "filenames": [
+      ".bash_aliases",
+      ".bash_functions",
+      ".bash_history",
+      ".bash_logout",
+      ".bash_profile",
+      ".bashrc",
+      ".cshrc",
+      ".envrc",
+      ".flaskenv",
+      ".kshrc",
+      ".login",
+      ".profile",
+      ".tmux.conf",
+      ".xinitrc",
+      ".xsession",
+      ".zlogin",
+      ".zlogout",
+      ".zprofile",
+      ".zshenv",
+      ".zshrc",
+      "9fs",
+      "PKGBUILD",
+      "bash_aliases",
+      "bash_logout",
+      "bash_profile",
+      "bashrc",
+      "cshrc",
+      "gradlew",
+      "kshrc",
+      "login",
+      "man",
+      "mvnw",
+      "profile",
+      "tmux.conf",
+      "xinitrc",
+      "xsession",
+      "zlogin",
+      "zlogout",
+      "zprofile",
+      "zshenv",
+      "zshrc"
+    ],
+    "extensions": [
+      ".sh",
+      ".bash",
+      ".bats",
+      ".cgi",
+      ".command",
+      ".fcgi",
+      ".ksh",
+      ".sbatch",
+      ".sh.in",
+      ".slurm",
+      ".tmux",
+      ".tool",
+      ".trigger",
+      ".zsh",
+      ".zsh-theme"
+    ]
+  },
+  "Swift": {
+    "type": "programming",
+    "extensions": [
+      ".swift"
+    ]
+  },
+  "TypeScript": {
+    "type": "programming",
+    "aliases": [
+      "ts"
+    ],
+    "extensions": [
+      ".ts",
+      ".cts",
+      ".mts"
+    ]
+  }
+}

@@ -1,0 +1,1648 @@
+{
+  "2-Dimensional Array": {
+    "extensions": [
+      ".2da"
+    ]
+  },
+  "ABNF": {
+    "extensions": [
+      ".abnf"
+    ]
+  },
+  "Adblock Filter List": {
+    "aliases": [
+      "ad block filters",
+      "ad block",
+      "adb",
+      "adblock"
+    ],
+    "extensions": [
+      ".txt"
+    ]
+  },
+  "Adobe Font Metrics": {
+    "aliases": [
+      "acfm",
+      "adobe composite font metrics",
+      "adobe multiple font metrics",
+      "amfm"
+    ],
+    "extensions": [
+      ".afm"
+    ]
+  },
+  "Altium Designer": {
+    "aliases": [
+      "altium"
+    ],
+    "extensions": [
+      ".OutJob",
+      ".PcbDoc",
+      ".PrjPCB",
+      ".SchDoc"
+    ]
+  },
+  "Ant Build System": {
+    "filenames": [
+      "ant.xml",
+      "build.xml"
+    ],
+    "extensions": []
+  },
+  "ApacheConf": {
+    "aliases": [
+      "aconf",
+      "apache"
+    ],
+    "filenames": [
+      ".htaccess",
+      "apache2.conf",
+      "httpd.conf"
+    ],
+    "extensions": [
+      ".apacheconf",
+      ".vhost"
+    ]
+  },
+  "ASN.1": {
+    "extensions": [
+      ".asn",
+      ".asn1"
+    ]
+  },
+  "Avro IDL": {
+    "extensions": [
+      ".avdl"
+    ]
+  },
+  "Browserslist": {
+    "filenames": [
+      ".browserslistrc",
+      "browserslist"
+    ],
+    "extensions": []
+  },
+  "BuildStream": {
+    "extensions": [
+      ".bst"
+    ]
+  },
+  "C-ObjDump": {
+    "extensions": [
+      ".c-objdump"
+    ]
+  },
+  "Cabal Config": {
+    "aliases": [
+      "Cabal"
+    ],
+    "filenames": [
+      "cabal.config",
+      "cabal.project"
+    ],
+    "extensions": [
+      ".cabal"
+    ]
+  },
+  "Caddyfile": {
+    "aliases": [
+      "Caddy"
+    ],
+    "filenames": [
+      "Caddyfile"
+    ],
+    "extensions": [
+      ".caddyfile"
+    ]
+  },
+  "Checksums": {
+    "aliases": [
+      "checksum",
+      "hash",
+      "hashes",
+      "sum",
+      "sums"
+    ],
+    "filenames": [
+      "MD5SUMS",
+      "SHA1SUMS",
+      "SHA256SUMS",
+      "SHA256SUMS.txt",
+      "SHA512SUMS",
+      "checksums.txt",
+      "cksums",
+      "md5sum.txt"
+    ],
+    "extensions": [
+      ".crc32",
+      ".md2",
+      ".md4",
+      ".md5",
+      ".sha1",
+      ".sha2",
+      ".sha224",
+      ".sha256",
+      ".sha256sum",
+      ".sha3",
+      ".sha384",
+      ".sha512"
+    ]
+  },
+  "CIL": {
+    "extensions": [
+      ".cil"
+    ]
+  },
+  "Cloud Firestore Security Rules": {
+    "filenames": [
+      "firestore.rules"
+    ],
+    "extensions": []
+  },
+  "CODEOWNERS": {
+    "filenames": [
+      "CODEOWNERS"
+    ],
+    "extensions": []
+  },
+  "COLLADA": {
+    "extensions": [
+      ".dae"
+    ]
+  },
+  "CoNLL-U": {
+    "aliases": [
+      "CoNLL",
+      "CoNLL-X"
+    ],
+    "extensions": [
+      ".conllu",
+      ".conll"
+    ]
+  },
+  "Cpp-ObjDump": {
+    "aliases": [
+      "c++-objdump"
+    ],
+    "extensions": [
+      ".cppobjdump",
+      ".c++-objdump",
+      ".c++objdump",
+      ".cpp-objdump",
+      ".cxx-objdump"
+    ]
+  },
+  "crontab": {
+    "aliases": [
+      "cron",
+      "cron table"
+    ],
+    "filenames": [
+      "crontab"
+    ],
+    "extensions": []
+  },
+  "CSON": {
+    "extensions": [
+      ".cson"
+    ]
+  },
+  "CSV": {
+    "extensions": [
+      ".csv"
+    ]
+  },
+  "Cue Sheet": {
+    "extensions": [
+      ".cue"
+    ]
+  },
+  "cURL Config": {
+    "aliases": [
+      "curlrc"
+    ],
+    "filenames": [
+      ".curlrc",
+      "_curlrc"
+    ],
+    "extensions": []
+  },
+  "Cylc": {
+    "filenames": [
+      "suite.rc"
+    ],
+    "extensions": [
+      ".cylc"
+    ]
+  },
+  "D-ObjDump": {
+    "extensions": [
+      ".d-objdump"
+    ]
+  },
+  "Darcs Patch": {
+    "aliases": [
+      "dpatch"
+    ],
+    "extensions": [
+      ".darcspatch",
+      ".dpatch"
+    ]
+  },
+  "Debian Package Control File": {
+    "extensions": [
+      ".dsc"
+    ]
+  },
+  "desktop": {
+    "extensions": [
+      ".desktop",
+      ".desktop.in",
+      ".service"
+    ]
+  },
+  "Diff": {
+    "aliases": [
+      "udiff"
+    ],
+    "extensions": [
+      ".diff",
+      ".patch"
+    ]
+  },
+  "dircolors": {
+    "filenames": [
+      ".dir_colors",
+      ".dircolors",
+      "DIR_COLORS",
+      "_dir_colors",
+      "_dircolors",
+      "dir_colors"
+    ],
+    "extensions": [
+      ".dircolors"
+    ]
+  },
+  "DirectX 3D File": {
+    "extensions": [
+      ".x"
+    ]
+  },
+  "DNS Zone": {
+    "extensions": [
+      ".zone",
+      ".arpa"
+    ]
+  },
+  "Dotenv": {
+    "filenames": [
+      ".env",
+      ".env.ci",
+      ".env.dev",
+      ".env.development",
+      ".env.development.local",
+      ".env.example",
+      ".env.local",
+      ".env.prod",
+      ".env.production",
+      ".env.sample",
+      ".env.staging",
+      ".env.template",
+      ".env.test",
+      ".env.testing"
+    ],
+    "extensions": [
+      ".env"
+    ]
+  },
+  "E-mail": {
+    "aliases": [
+      "email",
+      "eml",
+      "mail",
+      "mbox"
+    ],
+    "extensions": [
+      ".eml",
+      ".mbox"
+    ]
+  },
+  "Eagle": {
+    "extensions": [
+      ".sch",
+      ".brd"
+    ]
+  },
+  "Easybuild": {
+    "extensions": [
+      ".eb"
+    ]
+  },
+  "EBNF": {
+    "extensions": [
+      ".ebnf"
+    ]
+  },
+  "Ecere Projects": {
+    "extensions": [
+      ".epj"
+    ]
+  },
+  "EditorConfig": {
+    "aliases": [
+      "editor-config"
+    ],
+    "filenames": [
+      ".editorconfig"
+    ],
+    "extensions": [
+      ".editorconfig"
+    ]
+  },
+  "Edje Data Collection": {
+    "extensions": [
+      ".edc"
+    ]
+  },
+  "edn": {
+    "extensions": [
+      ".edn"
+    ]
+  },
+  "FIGlet Font": {
+    "aliases": [
+      "FIGfont"
+    ],
+    "extensions": [
+      ".flf"
+    ]
+  },
+  "FlatBuffers": {
+    "extensions": [
+      ".fbs"
+    ]
+  },
+  "Formatted": {
+    "extensions": [
+      ".for",
+      ".eam.fs"
+    ]
+  },
+  "GEDCOM": {
+    "extensions": [
+      ".ged"
+    ]
+  },
+  "Gemfile.lock": {
+    "filenames": [
+      "Gemfile.lock"
+    ],
+    "extensions": []
+  },
+  "Gerber Image": {
+    "aliases": [
+      "rs-274x"
+    ],
+    "extensions": [
+      ".gbr",
+      ".cmp",
+      ".gbl",
+      ".gbo",
+      ".gbp",
+      ".gbs",
+      ".gko",
+      ".gml",
+      ".gpb",
+      ".gpt",
+      ".gtl",
+      ".gto",
+      ".gtp",
+      ".gts",
+      ".ncl",
+      ".sol"
+    ]
+  },
+  "Git Attributes": {
+    "aliases": [
+      "gitattributes"
+    ],
+    "filenames": [
+      ".gitattributes"
+    ],
+    "extensions": []
+  },
+  "Git Commit": {
+    "aliases": [
+      "commit"
+    ],
+    "filenames": [
+      "COMMIT_EDITMSG"
+    ],
+    "extensions": []
+  },
+  "Git Config": {
+    "aliases": [
+      "gitconfig",
+      "gitmodules"
+    ],
+    "filenames": [
+      ".gitconfig",
+      ".gitmodules"
+    ],
+    "extensions": [
+      ".gitconfig"
+    ]
+  },
+  "Git Revision List": {
+    "aliases": [
+      "Git Blame Ignore Revs"
+    ],
+    "filenames": [
+      ".git-blame-ignore-revs"
+    ],
+    "extensions": []
+  },
+  "Glyph Bitmap Distribution Format": {
+    "extensions": [
+      ".bdf"
+    ]
+  },
+  "GN": {
+    "filenames": [
+      ".gn"
+    ],
+    "extensions": [
+      ".gn",
+      ".gni"
+    ]
+  },
+  "Go Checksums": {
+    "aliases": [
+      "go.sum",
+      "go sum",
+      "go.work.sum",
+      "go work sum"
+    ],
+    "filenames": [
+      "go.sum",
+      "go.work.sum"
+    ],
+    "extensions": []
+  },
+  "Go Module": {
+    "aliases": [
+      "go.mod",
+      "go mod"
+    ],
+    "filenames": [
+      "go.mod"
+    ],
+    "extensions": []
+  },
+  "Go Workspace": {
+    "aliases": [
+      "go.work",
+      "go work"
+    ],
+    "filenames": [
+      "go.work"
+    ],
+    "extensions": []
+  },
+  "Godot Resource": {
+    "filenames": [
+      "project.godot"
+    ],
+    "extensions": [
+      ".gdnlib",
+      ".gdns",
+      ".tres",
+      ".tscn"
+    ]
+  },
+  "Gradle": {
+    "extensions": [
+      ".gradle"
+    ]
+  },
+  "Gradle Kotlin DSL": {
+    "extensions": [
+      ".gradle.kts"
+    ]
+  },
+  "Graph Modeling Language": {
+    "extensions": [
+      ".gml"
+    ]
+  },
+  "GraphQL": {
+    "extensions": [
+      ".graphql",
+      ".gql",
+      ".graphqls"
+    ]
+  },
+  "Graphviz (DOT)": {
+    "extensions": [
+      ".dot",
+      ".gv"
+    ]
+  },
+  "HAProxy": {
+    "filenames": [
+      "haproxy.cfg"
+    ],
+    "extensions": [
+      ".cfg"
+    ]
+  },
+  "HOCON": {
+    "filenames": [
+      ".scalafix.conf",
+      ".scalafmt.conf"
+    ],
+    "extensions": [
+      ".hocon"
+    ]
+  },
+  "Hosts File": {
+    "aliases": [
+      "hosts"
+    ],
+    "filenames": [
+      "HOSTS",
+      "hosts",
+      "hosts.txt"
+    ],
+    "extensions": []
+  },
+  "HTTP": {
+    "extensions": [
+      ".http"
+    ]
+  },
+  "HXML": {
+    "extensions": [
+      ".hxml"
+    ]
+  },
+  "iCalendar": {
+    "aliases": [
+      "iCal"
+    ],
+    "extensions": [
+      ".ics",
+      ".ical"
+    ]
+  },
+  "Ignore List": {
+    "aliases": [
+      "ignore",
+      "gitignore",
+      "git-ignore"
+    ],
+    "filenames": [
+      ".atomignore",
+      ".babelignore",
+      ".bzrignore",
+      ".coffeelintignore",
+      ".cvsignore",
+      ".dockerignore",
+      ".easignore",
+      ".eleventyignore",
+      ".eslintignore",
+      ".gitignore",
+      ".ignore",
+      ".markdownlintignore",
+      ".nodemonignore",
+      ".npmignore",
+      ".prettierignore",
+      ".stylelintignore",
+      ".vercelignore",
+      ".vscodeignore",
+      "gitignore-global",
+      "gitignore_global"
+    ],
+    "extensions": [
+      ".gitignore"
+    ]
+  },
+  "INI": {
+    "aliases": [
+      "dosini"
+    ],
+    "filenames": [
+      ".buckconfig",
+      ".coveragerc",
+      ".flake8",
+      ".pylintrc",
+      "HOSTS",
+      "buildozer.spec",
+      "hosts",
+      "pylintrc",
+      "vlcrc"
+    ],
+    "extensions": [
+      ".ini",
+      ".cfg",
+      ".cnf",
+      ".dof",
+      ".frm",
+      ".lektorproject",
+      ".prefs",
+      ".pro",
+      ".properties",
+      ".url"
+    ]
+  },
+  "IRC log": {
+    "aliases": [
+      "irc",
+      "irc logs"
+    ],
+    "extensions": [
+      ".irclog",
+      ".weechatlog"
+    ]
+  },
+  "JAR Manifest": {
+    "filenames": [
+      "MANIFEST.MF"
+    ],
+    "extensions": []
+  },
+  "Java Properties": {
+    "extensions": [
+      ".properties"
+    ]
+  },
+  "Jest Snapshot": {
+    "extensions": [
+      ".snap"
+    ]
+  },
+  "JSON": {
+    "aliases": [
+      "geojson",
+      "jsonl",
+      "sarif",
+      "topojson"
+    ],
+    "filenames": [
+      ".all-contributorsrc",
+      ".arcconfig",
+      ".auto-changelog",
+      ".c8rc",
+      ".htmlhintrc",
+      ".imgbotconfig",
+      ".nycrc",
+      ".tern-config",
+      ".tern-project",
+      ".watchmanconfig",
+      "MODULE.bazel.lock",
+      "Package.resolved",
+      "Pipfile.lock",
+      "bun.lock",
+      "composer.lock",
+      "deno.lock",
+      "flake.lock",
+      "mcmod.info"
+    ],
+    "extensions": [
+      ".json",
+      ".4DForm",
+      ".4DProject",
+      ".avsc",
+      ".geojson",
+      ".gltf",
+      ".har",
+      ".ice",
+      ".JSON-tmLanguage",
+      ".json.example",
+      ".jsonl",
+      ".mcmeta",
+      ".sarif",
+      ".tact",
+      ".tfstate",
+      ".tfstate.backup",
+      ".topojson",
+      ".webapp",
+      ".webmanifest",
+      ".yy",
+      ".yyp"
+    ]
+  },
+  "JSON with Comments": {
+    "aliases": [
+      "jsonc"
+    ],
+    "filenames": [
+      ".babelrc",
+      ".devcontainer.json",
+      ".eslintrc.json",
+      ".jscsrc",
+      ".jshintrc",
+      ".jslintrc",
+      ".oxlintrc.json",
+      ".swcrc",
+      "api-extractor.json",
+      "devcontainer.json",
+      "jsconfig.json",
+      "language-configuration.json",
+      "tsconfig.json",
+      "tslint.json"
+    ],
+    "extensions": [
+      ".jsonc",
+      ".code-snippets",
+      ".code-workspace",
+      ".sublime-build",
+      ".sublime-color-scheme",
+      ".sublime-commands",
+      ".sublime-completions",
+      ".sublime-keymap",
+      ".sublime-macro",
+      ".sublime-menu",
+      ".sublime-mousemap",
+      ".sublime-project",
+      ".sublime-settings",
+      ".sublime-theme",
+      ".sublime-workspace",
+      ".sublime_metrics",
+      ".sublime_session",
+      ".tsconfig.json"
+    ]
+  },
+  "JSON5": {
+    "extensions": [
+      ".json5"
+    ]
+  },
+  "JSONLD": {
+    "extensions": [
+      ".jsonld"
+    ]
+  },
+  "KDL": {
+    "extensions": [
+      ".kdl"
+    ]
+  },
+  "KiCad Layout": {
+    "aliases": [
+      "pcbnew"
+    ],
+    "filenames": [
+      "fp-lib-table"
+    ],
+    "extensions": [
+      ".kicad_pcb",
+      ".kicad_mod",
+      ".kicad_wks"
+    ]
+  },
+  "KiCad Legacy Layout": {
+    "extensions": [
+      ".brd"
+    ]
+  },
+  "KiCad Schematic": {
+    "aliases": [
+      "eeschema schematic"
+    ],
+    "extensions": [
+      ".kicad_sch",
+      ".kicad_sym",
+      ".sch"
+    ]
+  },
+  "Kickstart": {
+    "extensions": [
+      ".ks"
+    ]
+  },
+  "Kusto": {
+    "extensions": [
+      ".csl",
+      ".kql"
+    ]
+  },
+  "Lark": {
+    "extensions": [
+      ".lark"
+    ]
+  },
+  "Linux Kernel Module": {
+    "extensions": [
+      ".mod"
+    ]
+  },
+  "LTspice Symbol": {
+    "extensions": [
+      ".asy"
+    ]
+  },
+  "M3U": {
+    "aliases": [
+      "hls playlist",
+      "m3u playlist"
+    ],
+    "extensions": [
+      ".m3u",
+      ".m3u8"
+    ]
+  },
+  "Maven POM": {
+    "filenames": [
+      "pom.xml"
+    ],
+    "extensions": []
+  },
+  "Microsoft Developer Studio Project": {
+    "extensions": [
+      ".dsp"
+    ]
+  },
+  "Microsoft Visual Studio Solution": {
+    "extensions": [
+      ".sln"
+    ]
+  },
+  "MiniYAML": {
+    "extensions": [
+      ".yaml",
+      ".yml"
+    ]
+  },
+  "MiniZinc Data": {
+    "extensions": [
+      ".dzn"
+    ]
+  },
+  "nanorc": {
+    "filenames": [
+      ".nanorc",
+      "nanorc"
+    ],
+    "extensions": [
+      ".nanorc"
+    ]
+  },
+  "NEON": {
+    "aliases": [
+      "nette object notation",
+      "ne-on"
+    ],
+    "extensions": [
+      ".neon"
+    ]
+  },
+  "Nginx": {
+    "aliases": [
+      "nginx configuration file"
+    ],
+    "filenames": [
+      "nginx.conf"
+    ],
+    "extensions": [
+      ".nginx",
+      ".nginxconf",
+      ".vhost"
+    ]
+  },
+  "Ninja": {
+    "extensions": [
+      ".ninja"
+    ]
+  },
+  "NL": {
+    "extensions": [
+      ".nl"
+    ]
+  },
+  "NPM Config": {
+    "aliases": [
+      "npmrc"
+    ],
+    "filenames": [
+      ".npmrc"
+    ],
+    "extensions": []
+  },
+  "OASv2-json": {
+    "extensions": [
+      ".json"
+    ]
+  },
+  "OASv2-yaml": {
+    "extensions": [
+      ".yaml",
+      ".yml"
+    ]
+  },
+  "OASv3-json": {
+    "extensions": [
+      ".json"
+    ]
+  },
+  "OASv3-yaml": {
+    "extensions": [
+      ".yaml",
+      ".yml"
+    ]
+  },
+  "ObjDump": {
+    "extensions": [
+      ".objdump"
+    ]
+  },
+  "Object Data Instance Notation": {
+    "extensions": [
+      ".odin"
+    ]
+  },
+  "OpenAPI Specification v2": {
+    "aliases": [
+      "oasv2"
+    ],
+    "extensions": []
+  },
+  "OpenAPI Specification v3": {
+    "aliases": [
+      "oasv3"
+    ],
+    "extensions": []
+  },
+  "OpenStep Property List": {
+    "extensions": [
+      ".plist",
+      ".glyphs"
+    ]
+  },
+  "OpenType Feature File": {
+    "aliases": [
+      "AFDKO"
+    ],
+    "extensions": [
+      ".fea"
+    ]
+  },
+  "Option List": {
+    "aliases": [
+      "opts",
+      "ackrc"
+    ],
+    "filenames": [
+      ".ackrc",
+      ".rspec",
+      ".yardopts",
+      "ackrc",
+      "mocha.opts"
+    ],
+    "extensions": []
+  },
+  "Pickle": {
+    "extensions": [
+      ".pkl"
+    ]
+  },
+  "Pip Requirements": {
+    "filenames": [
+      "dev-requirements.txt",
+      "requirements-dev.txt",
+      "requirements.lock.txt",
+      "requirements.txt"
+    ],
+    "extensions": []
+  },
+  "PlantUML": {
+    "extensions": [
+      ".puml",
+      ".iuml",
+      ".plantuml"
+    ]
+  },
+  "Prisma": {
+    "extensions": [
+      ".prisma"
+    ]
+  },
+  "Proguard": {
+    "extensions": [
+      ".pro"
+    ]
+  },
+  "Protocol Buffer": {
+    "aliases": [
+      "proto",
+      "protobuf",
+      "Protocol Buffers"
+    ],
+    "extensions": [
+      ".proto"
+    ]
+  },
+  "Protocol Buffer Text Format": {
+    "aliases": [
+      "text proto",
+      "protobuf text format"
+    ],
+    "extensions": [
+      ".textproto",
+      ".pbt",
+      ".pbtxt",
+      ".txtpb"
+    ]
+  },
+  "Public Key": {
+    "extensions": [
+      ".asc",
+      ".pub"
+    ]
+  },
+  "Pure Data": {
+    "extensions": [
+      ".pd"
+    ]
+  },
+  "Python traceback": {
+    "extensions": [
+      ".pytb"
+    ]
+  },
+  "Raw token data": {
+    "aliases": [
+      "raw"
+    ],
+    "extensions": [
+      ".raw"
+    ]
+  },
+  "RBS": {
+    "extensions": [
+      ".rbs"
+    ]
+  },
+  "Readline Config": {
+    "aliases": [
+      "inputrc",
+      "readline"
+    ],
+    "filenames": [
+      ".inputrc",
+      "inputrc"
+    ],
+    "extensions": []
+  },
+  "Record Jar": {
+    "filenames": [
+      "language-subtag-registry.txt"
+    ],
+    "extensions": []
+  },
+  "Redirect Rules": {
+    "aliases": [
+      "redirects"
+    ],
+    "filenames": [
+      "_redirects"
+    ],
+    "extensions": []
+  },
+  "Regular Expression": {
+    "aliases": [
+      "regexp",
+      "regex"
+    ],
+    "extensions": [
+      ".regexp",
+      ".regex"
+    ]
+  },
+  "robots.txt": {
+    "aliases": [
+      "robots",
+      "robots txt"
+    ],
+    "filenames": [
+      "robots.txt"
+    ],
+    "extensions": []
+  },
+  "RON": {
+    "extensions": [
+      ".ron"
+    ]
+  },
+  "ROS Interface": {
+    "aliases": [
+      "rosmsg"
+    ],
+    "extensions": [
+      ".msg",
+      ".action",
+      ".srv"
+    ]
+  },
+  "RPM Spec": {
+    "aliases": [
+      "specfile"
+    ],
+    "extensions": [
+      ".spec"
+    ]
+  },
+  "SELinux Policy": {
+    "aliases": [
+      "SELinux Kernel Policy Language",
+      "sepolicy"
+    ],
+    "filenames": [
+      "file_contexts",
+      "genfs_contexts",
+      "initial_sids",
+      "port_contexts",
+      "security_classes"
+    ],
+    "extensions": [
+      ".te"
+    ]
+  },
+  "ShellCheck Config": {
+    "aliases": [
+      "shellcheckrc"
+    ],
+    "filenames": [
+      ".shellcheckrc"
+    ],
+    "extensions": []
+  },
+  "Simple File Verification": {
+    "aliases": [
+      "sfv"
+    ],
+    "extensions": [
+      ".sfv"
+    ]
+  },
+  "Soong": {
+    "filenames": [
+      "Android.bp"
+    ],
+    "extensions": []
+  },
+  "SPARQL": {
+    "extensions": [
+      ".sparql",
+      ".rq"
+    ]
+  },
+  "Spline Font Database": {
+    "extensions": [
+      ".sfd"
+    ]
+  },
+  "SQL": {
+    "extensions": [
+      ".sql",
+      ".ddl",
+      ".inc",
+      ".mysql",
+      ".prc",
+      ".tab",
+      ".udf",
+      ".viw"
+    ]
+  },
+  "SSH Config": {
+    "aliases": [
+      "sshconfig",
+      "sshdconfig",
+      "ssh_config",
+      "sshd_config"
+    ],
+    "filenames": [
+      "ssh-config",
+      "ssh_config",
+      "sshconfig",
+      "sshconfig.snip",
+      "sshd-config",
+      "sshd_config"
+    ],
+    "extensions": []
+  },
+  "STAR": {
+    "extensions": [
+      ".star"
+    ]
+  },
+  "STL": {
+    "aliases": [
+      "ascii stl",
+      "stla"
+    ],
+    "extensions": [
+      ".stl"
+    ]
+  },
+  "STON": {
+    "extensions": [
+      ".ston"
+    ]
+  },
+  "SubRip Text": {
+    "extensions": [
+      ".srt"
+    ]
+  },
+  "Survex data": {
+    "extensions": [
+      ".svx"
+    ]
+  },
+  "SVG": {
+    "extensions": [
+      ".svg"
+    ]
+  },
+  "TextGrid": {
+    "extensions": [
+      ".TextGrid"
+    ]
+  },
+  "TextMate Properties": {
+    "aliases": [
+      "tm-properties"
+    ],
+    "filenames": [
+      ".tm_properties"
+    ],
+    "extensions": []
+  },
+  "TMDL": {
+    "aliases": [
+      "Tabular Model Definition Language"
+    ],
+    "extensions": [
+      ".tmdl"
+    ]
+  },
+  "TOML": {
+    "filenames": [
+      "Cargo.lock",
+      "Cargo.toml.orig",
+      "Gopkg.lock",
+      "Pipfile",
+      "pdm.lock",
+      "poetry.lock",
+      "uv.lock"
+    ],
+    "extensions": [
+      ".toml",
+      ".toml.example"
+    ]
+  },
+  "Tor Config": {
+    "aliases": [
+      "torrc"
+    ],
+    "filenames": [
+      "torrc"
+    ],
+    "extensions": []
+  },
+  "TSPLIB data": {
+    "aliases": [
+      "travelling salesman problem",
+      "traveling salesman problem"
+    ],
+    "extensions": [
+      ".tsp"
+    ]
+  },
+  "TSV": {
+    "aliases": [
+      "tab-seperated values"
+    ],
+    "extensions": [
+      ".tsv",
+      ".vcf"
+    ]
+  },
+  "Turtle": {
+    "extensions": [
+      ".ttl"
+    ]
+  },
+  "Type Language": {
+    "aliases": [
+      "tl"
+    ],
+    "extensions": [
+      ".tl"
+    ]
+  },
+  "Unity3D Asset": {
+    "extensions": [
+      ".anim",
+      ".asset",
+      ".mask",
+      ".mat",
+      ".meta",
+      ".prefab",
+      ".unity"
+    ]
+  },
+  "Valve Data Format": {
+    "aliases": [
+      "keyvalues",
+      "vdf"
+    ],
+    "extensions": [
+      ".vdf"
+    ]
+  },
+  "vCard": {
+    "aliases": [
+      "virtual contact file",
+      "electronic business card"
+    ],
+    "extensions": [
+      ".vcf"
+    ]
+  },
+  "Wavefront Material": {
+    "extensions": [
+      ".mtl"
+    ]
+  },
+  "Wavefront Object": {
+    "extensions": [
+      ".obj"
+    ]
+  },
+  "Web Ontology Language": {
+    "extensions": [
+      ".owl"
+    ]
+  },
+  "WebAssembly Interface Type": {
+    "aliases": [
+      "wit"
+    ],
+    "extensions": [
+      ".wit"
+    ]
+  },
+  "WebVTT": {
+    "aliases": [
+      "vtt"
+    ],
+    "extensions": [
+      ".vtt"
+    ]
+  },
+  "Wget Config": {
+    "aliases": [
+      "wgetrc"
+    ],
+    "filenames": [
+      ".wgetrc"
+    ],
+    "extensions": []
+  },
+  "Win32 Message File": {
+    "extensions": [
+      ".mc"
+    ]
+  },
+  "Windows Registry Entries": {
+    "extensions": [
+      ".reg"
+    ]
+  },
+  "World of Warcraft Addon Data": {
+    "extensions": [
+      ".toc"
+    ]
+  },
+  "X BitMap": {
+    "aliases": [
+      "xbm"
+    ],
+    "extensions": [
+      ".xbm"
+    ]
+  },
+  "X Font Directory Index": {
+    "filenames": [
+      "encodings.dir",
+      "fonts.alias",
+      "fonts.dir",
+      "fonts.scale"
+    ],
+    "extensions": []
+  },
+  "X PixMap": {
+    "aliases": [
+      "xpm"
+    ],
+    "extensions": [
+      ".xpm",
+      ".pm"
+    ]
+  },
+  "XCompose": {
+    "filenames": [
+      ".XCompose",
+      "XCompose",
+      "xcompose"
+    ],
+    "extensions": []
+  },
+  "XML": {
+    "aliases": [
+      "rss",
+      "xsd",
+      "wsdl"
+    ],
+    "filenames": [
+      ".classpath",
+      ".cproject",
+      ".project",
+      "App.config",
+      "NuGet.config",
+      "Settings.StyleCop",
+      "Web.Debug.config",
+      "Web.Release.config",
+      "Web.config",
+      "packages.config"
+    ],
+    "extensions": [
+      ".xml",
+      ".adml",
+      ".admx",
+      ".ant",
+      ".axaml",
+      ".axml",
+      ".builds",
+      ".ccproj",
+      ".ccxml",
+      ".clixml",
+      ".cproject",
+      ".cscfg",
+      ".csdef",
+      ".csl",
+      ".csproj",
+      ".ct",
+      ".depproj",
+      ".dita",
+      ".ditamap",
+      ".ditaval",
+      ".dll.config",
+      ".dotsettings",
+      ".filters",
+      ".fsproj",
+      ".fxml",
+      ".glade",
+      ".gml",
+      ".gmx",
+      ".gpx",
+      ".grxml",
+      ".gst",
+      ".hzp",
+      ".icls",
+      ".iml",
+      ".ivy",
+      ".jelly",
+      ".jsproj",
+      ".kml",
+      ".launch",
+      ".mdpolicy",
+      ".mjml",
+      ".mm",
+      ".mod",
+      ".mojo",
+      ".mxml",
+      ".natvis",
+      ".ncl",
+      ".ndproj",
+      ".nproj",
+      ".nuspec",
+      ".odd",
+      ".osm",
+      ".pkgproj",
+      ".pluginspec",
+      ".proj",
+      ".props",
+      ".ps1xml",
+      ".psc1",
+      ".pt",
+      ".pubxml",
+      ".qhelp",
+      ".rdf",
+      ".res",
+      ".resx",
+      ".rs",
+      ".rss",
+      ".sch",
+      ".scxml",
+      ".sfproj",
+      ".shproj",
+      ".slnx",
+      ".srdf",
+      ".storyboard",
+      ".sublime-snippet",
+      ".sw",
+      ".targets",
+      ".tml",
+      ".ts",
+      ".tsx",
+      ".typ",
+      ".ui",
+      ".urdf",
+      ".ux",
+      ".vbproj",
+      ".vcxproj",
+      ".vsixmanifest",
+      ".vssettings",
+      ".vstemplate",
+      ".vxml",
+      ".wixproj",
+      ".workflow",
+      ".wsdl",
+      ".wsf",
+      ".wxi",
+      ".wxl",
+      ".wxs",
+      ".x3d",
+      ".xacro",
+      ".xaml",
+      ".xib",
+      ".xlf",
+      ".xliff",
+      ".xmi",
+      ".xml.dist",
+      ".xmp",
+      ".xproj",
+      ".xsd",
+      ".xspec",
+      ".xul",
+      ".zcml"
+    ]
+  },
+  "XML Property List": {
+    "extensions": [
+      ".plist",
+      ".stTheme",
+      ".tmCommand",
+      ".tmLanguage",
+      ".tmPreferences",
+      ".tmSnippet",
+      ".tmTheme"
+    ]
+  },
+  "XPages": {
+    "extensions": [
+      ".xsp-config",
+      ".xsp.metadata"
+    ]
+  },
+  "YAML": {
+    "aliases": [
+      "yml"
+    ],
+    "filenames": [
+      ".clang-format",
+      ".clang-tidy",
+      ".clangd",
+      ".gemrc",
+      "CITATION.cff",
+      "glide.lock",
+      "pixi.lock",
+      "yarn.lock"
+    ],
+    "extensions": [
+      ".yml",
+      ".mir",
+      ".reek",
+      ".rviz",
+      ".sublime-syntax",
+      ".syntax",
+      ".yaml",
+      ".yaml-tmlanguage",
+      ".yaml.sed",
+      ".yml.mysql"
+    ]
+  },
+  "YANG": {
+    "extensions": [
+      ".yang"
+    ]
+  },
+  "Zmodel": {
+    "extensions": [
+      ".zmodel"
+    ]
+  }
+}
