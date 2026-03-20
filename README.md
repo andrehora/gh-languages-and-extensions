@@ -1,10 +1,9 @@
 # GitHub Languages and Extensions
 
-Comprehensive dataset of 800+ languages and their extensions extracted from GitHub's [Linguist](https://github.com/github-linguist/linguist) project.
+Comprehensive dataset of 800+ languages and their extensions extracted from [GitHub Linguist](https://github.com/github-linguist/linguist).
+Data is extracted from GitHub Linguist [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml):
 
-All data is extracted from GitHub Linguist's [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml):
-
-## Basic
+### Basic
 
 <!-- gh:start -->
 | File | Count | Description |
@@ -13,7 +12,7 @@ All data is extracted from GitHub Linguist's [languages.yml](https://github.com/
 | [`gh_extensions.csv`](data/gh_extensions.csv) | 1448 | Language extensions known to GitHub |
 <!-- gh:end -->
 
-## Language and Extensions
+### Language and Extensions
 
 <!-- summary:start -->
 | File | Count | Description |
@@ -24,7 +23,7 @@ All data is extracted from GitHub Linguist's [languages.yml](https://github.com/
 
 Popular GitHub languages: [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
-## Language and Extensions per Type: programming, data, markup, or prose
+### Language and Extensions per Type: programming, data, markup, or prose
 
 <!-- types:start -->
 | File | Count | Description |
@@ -35,7 +34,7 @@ Popular GitHub languages: [popular.yml](https://github.com/github-linguist/lingu
 | [`languages_prose.json`](data/languages_prose.json) / [`csv`](data/languages_prose.csv) | 18 | Prose languages |
 <!-- types:end -->
 
-## Language Entry
+### Language Entry
 
 In `languages.json`, each entry includes the type (`programming`, `data`, `markup`, or `prose`), aliases (if any), and file extensions:
 
@@ -91,4 +90,4 @@ To regenerate the files from the source `languages.yml`:
 python parse_languages.py
 ```
 
-This parses `languages.yml` (from [GitHub Linguist](https://github.com/github-linguist/linguist/blob/master/lib/linguist/languages.yml)) and writes all output files to the `data/` folder.
+This parses [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) (from GitHub Linguist) and writes output files to the `data/` folder.
