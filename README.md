@@ -22,7 +22,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 | File | Count | Description |
 |------|-------|-------------|
 | [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | 804 | Languages and extensions |
-| [`popular_languages.json`](data/popular_languages.json) / [`csv`](data/popular_languages.csv) | 25 | Popular languages and extensions |
+| [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | 25 | Popular languages and extensions |
 <!-- summary:end -->
 
 Popular GitHub languages: [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
