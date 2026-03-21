@@ -1,0 +1,805 @@
+language,type,aliases_count,extensions_count,filenames_count
+XML,data,3,110,10
+Roff,markup,8,28,5
+JavaScript,programming,2,25,1
+GLSL,programming,0,23,0
+Ruby,programming,5,22,23
+JSON,data,4,21,18
+C++,programming,1,20,0
+Roff Manpage,markup,0,20,0
+JSON with Comments,data,1,18,14
+Python,programming,4,17,5
+Gerber Image,data,1,16,0
+PLSQL,programming,0,16,0
+Shell,programming,5,15,41
+TeX,markup,1,14,0
+Raku,programming,2,13,0
+Checksums,data,5,12,8
+Markdown,prose,2,11,1
+Clojure,programming,0,10,1
+INI,data,1,10,9
+Perl,programming,1,10,6
+PHP,programming,1,10,4
+Wolfram Language,programming,5,10,0
+YAML,data,1,10,8
+Common Lisp,programming,1,8,0
+Erlang,programming,0,8,4
+Forth,programming,0,8,0
+Lua,programming,0,8,1
+SQL,data,0,8,0
+VHDL,programming,0,8,0
+Assembly,programming,2,7,0
+HTML,markup,1,7,0
+OCaml,programming,0,7,0
+Pascal,programming,2,7,0
+Stata,programming,0,7,0
+Unity3D Asset,data,0,7,0
+XML Property List,data,0,7,0
+ASP.NET,programming,2,6,0
+Gnuplot,programming,0,6,0
+HCL,programming,3,6,0
+Makefile,programming,3,6,13
+REALbasic,programming,0,6,0
+Scheme,programming,0,6,0
+Tcl,programming,2,6,2
+Xojo,programming,0,6,0
+Awk,programming,0,5,0
+C,programming,0,5,0
+C#,programming,3,5,0
+COBOL,programming,0,5,0
+CoffeeScript,programming,2,5,1
+Cpp-ObjDump,data,1,5,0
+GAP,programming,0,5,0
+Go Template,markup,1,5,1
+HLSL,programming,0,5,0
+Max,programming,2,5,0
+Motorola 68K Assembly,programming,1,5,0
+Nim,programming,0,5,1
+Prolog,programming,0,5,0
+Rebol,programming,0,5,0
+Text,prose,2,5,25
+Visual Basic 6.0,programming,5,5,0
+XQuery,programming,0,5,0
+Altium Designer,data,1,4,0
+BitBake,programming,0,4,0
+Dylan,programming,0,4,0
+EJS,markup,0,4,0
+Fortran,programming,0,4,0
+Fortran Free Form,programming,0,4,0
+G-code,programming,0,4,0
+Godot Resource,data,0,4,1
+Gosu,programming,0,4,0
+Groovy,programming,0,4,1
+Hack,programming,0,4,0
+Lasso,programming,1,4,0
+Modula-3,programming,0,4,0
+PostScript,markup,1,4,0
+PowerBuilder,programming,0,4,0
+Protocol Buffer Text Format,data,2,4,0
+Racket,programming,0,4,0
+reStructuredText,prose,1,4,0
+Scala,programming,0,4,0
+Standard ML,programming,1,4,0
+VBA,programming,1,4,0
+Vim Script,programming,4,4,8
+Ada,programming,2,3,0
+Antlers,markup,0,3,0
+Apex,programming,0,3,0
+AsciiDoc,prose,0,3,0
+ATS,programming,1,3,0
+Cython,programming,1,3,0
+desktop,data,0,3,0
+Emacs Lisp,programming,4,3,11
+F#,programming,1,3,0
+GraphQL,data,0,3,0
+GSC,programming,0,3,0
+Haskell,programming,0,3,0
+HTML+EEX,markup,3,3,0
+HTML+ERB,markup,3,3,0
+Java,programming,0,3,0
+JetBrains MPS,programming,1,3,0
+Jinja,markup,4,3,0
+KiCad Layout,data,1,3,1
+KiCad Schematic,data,1,3,0
+Kotlin,programming,0,3,0
+LabVIEW,programming,0,3,0
+Linker Script,programming,0,3,1
+Logos,programming,0,3,0
+Mirah,programming,0,3,0
+NewLisp,programming,0,3,0
+Nginx,data,1,3,1
+NumPy,programming,0,3,0
+OpenEdge ABL,programming,3,3,0
+Ox,programming,0,3,0
+Pawn,programming,0,3,0
+PlantUML,data,0,3,0
+PowerShell,programming,2,3,0
+R,programming,2,3,2
+REXX,programming,1,3,0
+ROS Interface,data,1,3,0
+Scilab,programming,0,3,0
+SMT,programming,0,3,0
+SWIG,programming,0,3,0
+SystemVerilog,programming,0,3,0
+Texinfo,prose,0,3,0
+TypeScript,programming,1,3,0
+Vim Snippet,markup,4,3,0
+Wikitext,prose,2,3,0
+xBase,programming,3,3,0
+Yacc,programming,0,3,0
+Zimpl,programming,0,3,0
+1C Enterprise,programming,0,2,0
+AGS Script,programming,1,2,0
+AMPL,programming,0,2,0
+AngelScript,programming,0,2,0
+ApacheConf,data,2,2,3
+APL,programming,0,2,0
+AppleScript,programming,2,2,0
+ASL,programming,0,2,0
+ASN.1,data,0,2,0
+AutoHotkey,programming,1,2,0
+Batchfile,programming,4,2,2
+Befunge,programming,0,2,0
+BibTeX,markup,0,2,0
+Bicep,programming,0,2,0
+Blade,markup,0,2,0
+BlitzBasic,programming,4,2,0
+Brainfuck,programming,0,2,0
+Clean,programming,0,2,0
+CMake,programming,0,2,1
+CodeQL,programming,1,2,0
+ColdFusion,programming,3,2,0
+Component Pascal,programming,0,2,0
+CoNLL-U,data,2,2,0
+Csound,programming,1,2,0
+Cuda,programming,0,2,0
+Cypher,programming,0,2,0
+D,programming,1,2,0
+Darcs Patch,data,1,2,0
+Diff,data,1,2,0
+DNS Zone,data,0,2,0
+Dockerfile,programming,1,2,2
+E-mail,data,4,2,0
+Eagle,data,0,2,0
+eC,programming,0,2,0
+ECL,programming,0,2,0
+EdgeQL,programming,1,2,0
+Elixir,programming,0,2,1
+EmberScript,programming,0,2,0
+Euphoria,programming,0,2,0
+F*,programming,1,2,0
+Fancy,programming,0,2,1
+FLUX,programming,0,2,0
+Formatted,data,0,2,0
+FreeBASIC,programming,1,2,0
+FreeMarker,programming,1,2,0
+GDB,programming,0,2,0
+GDShader,programming,0,2,0
+Gettext Catalog,prose,1,2,0
+Gherkin,programming,1,2,0
+GN,data,0,2,1
+Graphviz (DOT),data,0,2,0
+Haml,markup,0,2,0
+Handlebars,markup,2,2,0
+Haxe,programming,0,2,0
+HiveQL,programming,0,2,0
+HTML+Razor,markup,1,2,0
+iCalendar,data,1,2,0
+IDL,programming,0,2,0
+Idris,programming,0,2,0
+Inform 7,programming,2,2,0
+Inno Setup,programming,0,2,0
+IRC log,data,2,2,0
+Java Server Pages,programming,1,2,0
+JFlex,programming,0,2,0
+Jolie,programming,0,2,0
+Jsonnet,programming,0,2,0
+Kusto,data,0,2,0
+Lean,programming,0,2,0
+Lex,programming,1,2,2
+LilyPond,programming,0,2,0
+Limbo,programming,0,2,0
+Literate CoffeeScript,programming,1,2,0
+LiveScript,programming,2,2,1
+Logtalk,programming,0,2,0
+LookML,programming,0,2,0
+LSL,programming,0,2,0
+M,programming,1,2,0
+M3U,data,2,2,0
+M4,programming,0,2,0
+Mako,programming,0,2,0
+MATLAB,programming,1,2,0
+MAXScript,programming,0,2,0
+Mercury,programming,0,2,0
+Mermaid,markup,1,2,0
+MiniYAML,data,0,2,0
+Module Management System,programming,0,2,2
+Monkey,programming,0,2,0
+MQL4,programming,0,2,0
+MQL5,programming,0,2,0
+MUF,programming,0,2,0
+NASL,programming,0,2,0
+Nearley,programming,0,2,0
+NetLinx,programming,0,2,0
+NetLinx+ERB,programming,0,2,0
+NSIS,programming,0,2,0
+OASv2-yaml,data,0,2,0
+OASv3-yaml,data,0,2,0
+Objective-C,programming,3,2,0
+Objective-J,programming,3,2,0
+OpenCL,programming,0,2,0
+OpenStep Property List,data,0,2,0
+PEG.js,programming,0,2,0
+Pic,markup,1,2,0
+Pike,programming,0,2,0
+PLpgSQL,programming,0,2,0
+Pod 6,prose,0,2,0
+PostCSS,markup,0,2,0
+POV-Ray SDL,programming,2,2,0
+Public Key,data,0,2,0
+Pug,markup,0,2,0
+PureBasic,programming,0,2,0
+QMake,programming,0,2,0
+QML,programming,0,2,0
+QuickBASIC,programming,5,2,0
+Reason,programming,0,2,0
+Red,programming,1,2,0
+Regular Expression,data,2,2,0
+RenderScript,programming,0,2,0
+ReScript,programming,0,2,0
+RMarkdown,prose,0,2,0
+RobotFramework,programming,0,2,0
+Rocq Prover,programming,2,2,0
+RPGLE,programming,2,2,0
+RUNOFF,markup,0,2,0
+Rust,programming,1,2,0
+Sage,programming,0,2,0
+Smalltalk,programming,1,2,0
+Snakemake,programming,1,2,1
+SourcePawn,programming,1,2,0
+SPARQL,data,0,2,0
+SQF,programming,0,2,0
+SQLPL,programming,0,2,0
+Starlark,programming,2,2,8
+SuperCollider,programming,0,2,0
+Tcsh,programming,0,2,0
+TI Program,programming,0,2,0
+TOML,data,0,2,7
+TSV,data,1,2,0
+Turing,programming,0,2,0
+Unix Assembly,programming,3,2,0
+UrWeb,programming,2,2,0
+Vala,programming,0,2,0
+Verilog,programming,0,2,0
+Visual Basic .NET,programming,4,2,0
+WebAssembly,programming,2,2,0
+X PixMap,data,1,2,0
+XPages,data,0,2,0
+XProc,programming,0,2,0
+XSLT,programming,1,2,0
+YARA,programming,0,2,0
+ZAP,programming,0,2,0
+Zeek,programming,1,2,0
+Zig,programming,0,2,0
+ZIL,programming,0,2,0
+2-Dimensional Array,data,0,1,0
+4D,programming,0,1,0
+ABAP,programming,0,1,0
+ABAP CDS,programming,0,1,0
+ABNF,data,0,1,0
+ActionScript,programming,3,1,0
+Adblock Filter List,data,4,1,0
+Adobe Font Metrics,data,4,1,0
+Agda,programming,0,1,0
+AIDL,programming,0,1,0
+Aiken,programming,0,1,0
+AL,programming,0,1,0
+ALGOL,programming,0,1,0
+Alloy,programming,0,1,0
+Answer Set Programming,programming,0,1,0
+ANTLR,programming,0,1,0
+API Blueprint,markup,0,1,0
+Apollo Guidance Computer,programming,0,1,0
+Arc,programming,0,1,0
+AspectJ,programming,0,1,0
+Astro,markup,0,1,0
+Asymptote,programming,0,1,0
+Augeas,programming,0,1,0
+AutoIt,programming,3,1,0
+Avro IDL,data,0,1,0
+B (Formal Method),programming,0,1,0
+B4X,programming,1,1,0
+Ballerina,programming,0,1,0
+BASIC,programming,0,1,0
+Beef,programming,0,1,0
+Berry,programming,1,1,0
+BibTeX Style,programming,0,1,0
+Bikeshed,markup,0,1,0
+Bison,programming,0,1,0
+BlitzMax,programming,1,1,0
+Bluespec,programming,2,1,0
+Bluespec BH,programming,2,1,0
+Boo,programming,0,1,0
+Boogie,programming,0,1,0
+BQN,programming,0,1,0
+BrighterScript,programming,0,1,0
+Brightscript,programming,0,1,0
+Bru,markup,0,1,0
+BuildStream,data,0,1,0
+C-ObjDump,data,0,1,0
+C2hs Haskell,programming,1,1,0
+C3,programming,0,1,0
+Cabal Config,data,1,1,2
+Caddyfile,data,1,1,1
+Cadence,programming,0,1,0
+Cairo,programming,0,1,0
+Cairo Zero,programming,0,1,0
+CameLIGO,programming,0,1,0
+Cangjie,programming,0,1,0
+CAP CDS,programming,1,1,0
+Cap'n Proto,programming,0,1,0
+Carbon,programming,0,1,0
+CartoCSS,programming,1,1,0
+Ceylon,programming,0,1,0
+Chapel,programming,1,1,0
+Charity,programming,0,1,0
+ChucK,programming,0,1,0
+CIL,data,0,1,0
+Circom,programming,0,1,0
+Cirru,programming,0,1,0
+Clarion,programming,0,1,0
+Clarity,programming,0,1,0
+Classic ASP,programming,1,1,0
+Click,programming,0,1,0
+CLIPS,programming,0,1,0
+Closure Templates,markup,1,1,0
+Clue,programming,0,1,0
+ColdFusion CFC,programming,1,1,0
+COLLADA,data,0,1,0
+Common Workflow Language,programming,1,1,0
+Cooklang,markup,0,1,0
+Cool,programming,0,1,0
+CQL,programming,0,1,0
+Creole,prose,0,1,0
+Crystal,programming,0,1,0
+CSON,data,0,1,0
+Csound Document,programming,1,1,0
+Csound Score,programming,1,1,0
+CSS,markup,0,1,0
+CSV,data,0,1,0
+CUE,programming,0,1,0
+Cue Sheet,data,0,1,0
+Curry,programming,0,1,0
+CWeb,programming,0,1,0
+Cycript,programming,0,1,0
+Cylc,data,0,1,1
+D-ObjDump,data,0,1,0
+D2,markup,1,1,0
+Dafny,programming,0,1,0
+Dart,programming,0,1,0
+Daslang,programming,0,1,0
+DataWeave,programming,0,1,0
+Debian Package Control File,data,0,1,0
+DenizenScript,programming,0,1,0
+Dhall,programming,0,1,0
+DIGITAL Command Language,programming,1,1,0
+dircolors,data,0,1,6
+DirectX 3D File,data,0,1,0
+DM,programming,1,1,0
+Dogescript,programming,0,1,0
+Dotenv,data,0,1,14
+DTrace,programming,1,1,0
+E,programming,0,1,0
+Easybuild,data,0,1,0
+EBNF,data,0,1,0
+Ecere Projects,data,0,1,0
+ECLiPSe,programming,0,1,0
+Ecmarkup,markup,1,1,0
+Edge,markup,0,1,0
+EditorConfig,data,1,1,1
+Edje Data Collection,data,0,1,0
+edn,data,0,1,0
+Eiffel,programming,0,1,0
+Elm,programming,0,1,0
+Elvish,programming,0,1,0
+EQ,programming,0,1,0
+Factor,programming,0,1,2
+Fantom,programming,0,1,0
+Faust,programming,0,1,0
+Fennel,programming,0,1,0
+FIGlet Font,data,1,1,0
+Filebench WML,programming,0,1,0
+Filterscript,programming,0,1,0
+FIRRTL,programming,0,1,0
+fish,programming,0,1,0
+FlatBuffers,data,0,1,0
+Flix,programming,0,1,0
+Fluent,programming,0,1,0
+Frege,programming,0,1,0
+Futhark,programming,0,1,0
+Game Maker Language,programming,0,1,0
+GAML,programming,0,1,0
+GAMS,programming,0,1,0
+GCC Machine Description,programming,0,1,0
+GDScript,programming,0,1,0
+GEDCOM,data,0,1,0
+Gemini,prose,1,1,0
+Genero 4gl,programming,0,1,0
+Genero per,markup,0,1,0
+Genie,programming,0,1,0
+Genshi,programming,2,1,0
+Gentoo Ebuild,programming,0,1,0
+Gentoo Eclass,programming,0,1,0
+Git Config,data,2,1,2
+Gleam,programming,0,1,0
+Glimmer JS,programming,1,1,0
+Glimmer TS,programming,1,1,0
+Glyph,programming,0,1,0
+Glyph Bitmap Distribution Format,data,0,1,0
+Go,programming,1,1,0
+Golo,programming,0,1,0
+Grace,programming,0,1,0
+Gradle,data,0,1,0
+Gradle Kotlin DSL,data,0,1,0
+Grammatical Framework,programming,1,1,0
+Graph Modeling Language,data,0,1,0
+Groovy Server Pages,programming,2,1,0
+HAProxy,data,0,1,1
+Harbour,programming,0,1,0
+Hare,programming,0,1,0
+HIP,programming,0,1,0
+HOCON,data,0,1,2
+HolyC,programming,0,1,0
+hoon,programming,0,1,0
+HTML+ECR,markup,1,1,0
+HTML+PHP,markup,0,1,0
+HTTP,data,0,1,0
+Hurl,programming,0,1,0
+HXML,data,0,1,0
+Hy,programming,1,1,0
+HyPhy,programming,0,1,0
+Ignore List,data,3,1,20
+IGOR Pro,programming,2,1,0
+ImageJ Macro,programming,1,1,0
+Imba,programming,0,1,0
+Ink,programming,0,1,0
+Io,programming,0,1,0
+Ioke,programming,0,1,0
+Isabelle,programming,0,1,0
+ISPC,programming,0,1,0
+J,programming,0,1,0
+Jac,programming,0,1,0
+Jai,programming,0,1,0
+Janet,programming,0,1,0
+Jasmin,programming,0,1,0
+Java Properties,data,0,1,0
+Java Template Engine,programming,1,1,0
+JavaScript+ERB,programming,0,1,0
+JCL,programming,0,1,0
+Jest Snapshot,data,0,1,0
+Jison,programming,0,1,0
+Jison Lex,programming,0,1,0
+jq,programming,0,1,0
+JSON5,data,0,1,0
+JSONiq,programming,0,1,0
+JSONLD,data,0,1,0
+Julia,programming,0,1,0
+Jupyter Notebook,markup,1,1,1
+Just,programming,1,1,6
+Kaitai Struct,programming,1,1,0
+KakouneScript,programming,2,1,1
+KCL,programming,0,1,2
+KDL,data,0,1,0
+KerboScript,programming,0,1,0
+KFramework,programming,0,1,0
+KiCad Legacy Layout,data,0,1,0
+Kickstart,data,0,1,0
+Kit,markup,0,1,0
+Koka,programming,0,1,0
+KoLmafia ASH,programming,0,1,0
+KRL,programming,0,1,0
+kvlang,markup,0,1,0
+Lambdapi,programming,0,1,0
+Langium,programming,0,1,0
+Lark,data,0,1,0
+Latte,markup,0,1,0
+Lean 4,programming,1,1,0
+Leo,programming,0,1,0
+Less,markup,1,1,0
+LFE,programming,0,1,0
+LigoLANG,programming,0,1,0
+Linear Programming,programming,0,1,0
+Linux Kernel Module,data,0,1,0
+Liquid,markup,0,1,0
+Liquidsoap,programming,0,1,0
+Literate Agda,programming,0,1,0
+Literate Haskell,programming,2,1,0
+LiveCode Script,programming,0,1,0
+LLVM,programming,0,1,0
+LOLCODE,programming,0,1,0
+LoomScript,programming,0,1,0
+LTspice Symbol,data,0,1,0
+Luau,programming,0,1,0
+M4Sugar,programming,1,1,1
+Macaulay2,programming,1,1,0
+Marko,markup,1,1,0
+Mask,markup,0,1,0
+Mathematical Programming System,programming,0,1,0
+mcfunction,programming,0,1,0
+mdsvex,markup,0,1,0
+MDX,markup,0,1,0
+Metal,programming,0,1,0
+MeTTa,programming,0,1,0
+Microsoft Developer Studio Project,data,0,1,0
+Microsoft Visual Studio Solution,data,0,1,0
+MiniD,programming,0,1,0
+MiniZinc,programming,0,1,0
+MiniZinc Data,data,0,1,0
+Mint,programming,0,1,0
+mIRC Script,programming,0,1,0
+MLIR,programming,0,1,0
+Modelica,programming,0,1,0
+Modula-2,programming,0,1,0
+Mojo,programming,0,1,0
+Monkey C,programming,0,1,0
+Moocode,programming,0,1,0
+MoonBit,programming,0,1,0
+MoonScript,programming,0,1,0
+Motoko,programming,0,1,0
+Move,programming,0,1,0
+MTML,markup,0,1,0
+mupad,programming,0,1,0
+Muse,prose,2,1,0
+Mustache,markup,0,1,0
+Myghty,programming,0,1,0
+nanorc,data,0,1,2
+Nasal,programming,0,1,0
+NCL,programming,0,1,0
+Nemerle,programming,0,1,0
+NEON,data,2,1,0
+nesC,programming,0,1,0
+NetLogo,programming,0,1,0
+Nextflow,programming,0,1,1
+Nickel,programming,0,1,0
+Ninja,data,0,1,0
+Nit,programming,0,1,0
+Nix,programming,1,1,0
+NL,data,0,1,0
+NMODL,programming,0,1,0
+Noir,programming,1,1,0
+Nu,programming,1,1,1
+Nunjucks,markup,1,1,0
+Nushell,programming,2,1,0
+NWScript,programming,0,1,0
+OASv2-json,data,0,1,0
+OASv3-json,data,0,1,0
+Oberon,programming,0,1,0
+ObjDump,data,0,1,0
+Object Data Instance Notation,data,0,1,0
+Objective-C++,programming,3,1,0
+ObjectScript,programming,0,1,0
+Odin,programming,2,1,0
+Omgrofl,programming,0,1,0
+OMNeT++ MSG,programming,1,1,0
+OMNeT++ NED,programming,1,1,0
+ooc,programming,0,1,0
+Opa,programming,0,1,0
+Opal,programming,0,1,0
+Open Policy Agent,programming,0,1,0
+OpenQASM,programming,0,1,0
+OpenSCAD,programming,0,1,0
+OpenType Feature File,data,1,1,0
+Org,prose,0,1,0
+OverpassQL,programming,0,1,0
+Oxygene,programming,0,1,0
+Oz,programming,0,1,0
+P4,programming,0,1,0
+Pact,programming,0,1,0
+Pan,programming,0,1,0
+Papyrus,programming,0,1,0
+Parrot,programming,0,1,0
+Parrot Assembly,programming,1,1,0
+Parrot Internal Representation,programming,1,1,0
+PDDL,programming,0,1,0
+Pep8,programming,0,1,0
+Pickle,data,0,1,0
+PicoLisp,programming,0,1,0
+PigLatin,programming,0,1,0
+Pkl,programming,0,1,0
+Pod,prose,0,1,0
+PogoScript,programming,0,1,0
+Polar,programming,0,1,0
+Pony,programming,0,1,0
+Portugol,programming,0,1,0
+Praat,programming,0,1,0
+Prisma,data,0,1,0
+Processing,programming,0,1,0
+Proguard,data,0,1,0
+Promela,programming,0,1,0
+Propeller Spin,programming,0,1,0
+Protocol Buffer,data,3,1,0
+Puppet,programming,0,1,1
+Pure Data,data,0,1,0
+PureScript,programming,0,1,0
+Pyret,programming,0,1,0
+Python traceback,data,0,1,0
+q,programming,0,1,0
+Q#,programming,1,1,0
+Qt Script,programming,0,1,2
+QuakeC,programming,0,1,0
+Ragel,programming,2,1,0
+RAML,markup,0,1,0
+Rascal,programming,0,1,0
+RAScript,programming,0,1,0
+Raw token data,data,1,1,0
+RBS,data,0,1,0
+RDoc,prose,0,1,0
+ReasonLIGO,programming,0,1,0
+Redcode,programming,0,1,0
+Ren'Py,programming,1,1,0
+Rez,programming,0,1,0
+Rich Text Format,markup,0,1,0
+Ring,programming,0,1,0
+Riot,markup,0,1,0
+Roc,programming,0,1,0
+RON,data,0,1,0
+Rouge,programming,0,1,0
+RouterOS Script,programming,0,1,0
+RPC,programming,3,1,0
+RPM Spec,data,1,1,0
+Sail,programming,0,1,0
+SaltStack,programming,2,1,0
+SAS,programming,0,1,0
+Sass,markup,0,1,0
+Scaml,markup,0,1,0
+Scenic,programming,0,1,0
+SCSS,markup,0,1,0
+sed,programming,0,1,0
+Self,programming,0,1,0
+SELinux Policy,data,2,1,5
+ShaderLab,programming,0,1,0
+ShellSession,programming,2,1,0
+Shen,programming,0,1,0
+Sieve,programming,0,1,0
+Simple File Verification,data,1,1,0
+Slang,programming,0,1,0
+Slash,programming,0,1,0
+Slice,programming,0,1,0
+Slim,markup,0,1,0
+Slint,markup,0,1,0
+Smali,programming,0,1,0
+Smarty,programming,0,1,0
+Smithy,programming,0,1,0
+SmPL,programming,1,1,0
+Solidity,programming,0,1,0
+Spline Font Database,data,0,1,0
+Squirrel,programming,0,1,0
+SRecode Template,markup,0,1,0
+Stan,programming,0,1,0
+STAR,data,0,1,0
+STL,data,2,1,0
+STON,data,0,1,0
+StringTemplate,markup,0,1,0
+Stylus,markup,0,1,0
+SubRip Text,data,0,1,0
+SugarSS,markup,0,1,0
+SurrealQL,programming,1,1,0
+Survex data,data,0,1,0
+Svelte,markup,0,1,0
+SVG,data,0,1,0
+Sway,programming,0,1,0
+Sweave,prose,0,1,0
+Swift,programming,0,1,0
+Tact,programming,0,1,0
+Talon,programming,0,1,0
+Tea,markup,0,1,0
+Teal,programming,0,1,0
+templ,markup,0,1,0
+Terra,programming,0,1,0
+Terraform Template,markup,0,1,0
+TextGrid,data,0,1,0
+Textile,prose,0,1,0
+Thrift,programming,0,1,0
+TL-Verilog,programming,0,1,0
+TLA,programming,0,1,0
+TMDL,data,1,1,0
+Toit,programming,0,1,0
+Tree-sitter Query,programming,1,1,0
+TSPLIB data,data,2,1,0
+TSQL,programming,0,1,0
+TSX,programming,1,1,0
+Turtle,data,0,1,0
+Twig,markup,0,1,0
+TXL,programming,0,1,0
+Type Language,data,1,1,0
+TypeSpec,programming,1,1,0
+Typst,programming,1,1,0
+Unified Parallel C,programming,0,1,0
+Uno,programming,0,1,0
+UnrealScript,programming,0,1,0
+Untyped Plutus Core,programming,0,1,0
+V,programming,1,1,0
+Valve Data Format,data,2,1,0
+VBScript,programming,0,1,0
+vCard,data,2,1,0
+VCL,programming,0,1,0
+Velocity Template Language,markup,2,1,0
+Vento,markup,0,1,0
+Vim Help File,prose,2,1,0
+Volt,programming,0,1,0
+Vue,markup,0,1,0
+Vyper,programming,0,1,0
+Wavefront Material,data,0,1,0
+Wavefront Object,data,0,1,0
+WDL,programming,1,1,0
+Web Ontology Language,data,0,1,0
+WebAssembly Interface Type,data,1,1,0
+WebIDL,programming,0,1,0
+WebVTT,data,1,1,0
+WGSL,programming,0,1,0
+Whiley,programming,0,1,0
+Win32 Message File,data,0,1,0
+Windows Registry Entries,data,0,1,0
+wisp,programming,0,1,0
+Witcher Script,programming,0,1,0
+Wollok,programming,0,1,0
+World of Warcraft Addon Data,data,0,1,0
+Wren,programming,1,1,0
+X BitMap,data,1,1,0
+X10,programming,1,1,0
+XC,programming,0,1,0
+Xonsh,programming,0,1,0
+XS,programming,0,1,0
+Xtend,programming,0,1,0
+YANG,data,0,1,0
+YASnippet,markup,2,1,0
+Yul,programming,0,1,0
+ZenScript,programming,0,1,0
+Zephir,programming,0,1,0
+Zmodel,data,0,1,0
+Alpine Abuild,programming,2,0,1
+Ant Build System,data,0,0,2
+Browserslist,data,0,0,2
+Cloud Firestore Security Rules,data,0,0,1
+CODEOWNERS,data,0,0,1
+crontab,data,2,0,1
+cURL Config,data,1,0,2
+Dune,programming,0,0,1
+Earthly,programming,1,0,1
+Elvish Transcript,programming,0,0,0
+Gemfile.lock,data,0,0,1
+Git Attributes,data,1,0,1
+Git Commit,data,1,0,1
+Git Revision List,data,1,0,1
+Go Checksums,data,4,0,2
+Go Module,data,2,0,1
+Go Workspace,data,2,0,1
+Hosts File,data,1,0,3
+Isabelle ROOT,programming,0,0,1
+JAR Manifest,data,0,0,1
+Julia REPL,programming,0,0,0
+Maven POM,data,0,0,1
+Meson,programming,0,0,2
+NPM Config,data,1,0,1
+OpenAPI Specification v2,data,1,0,0
+OpenAPI Specification v3,data,1,0,0
+OpenRC runscript,programming,1,0,0
+Option List,data,2,0,5
+Pip Requirements,data,0,0,4
+Procfile,programming,0,0,1
+Python console,programming,1,0,0
+Quake,programming,0,0,2
+Readline Config,data,2,0,2
+Record Jar,data,0,0,1
+Redirect Rules,data,1,0,1
+robots.txt,data,2,0,1
+ShellCheck Config,data,1,0,1
+Singularity,programming,0,0,1
+Soong,data,0,0,1
+SSH Config,data,4,0,6
+TextMate Properties,data,1,0,1
+Tor Config,data,1,0,1
+Wget Config,data,1,0,1
+X Font Directory Index,data,0,0,4
+XCompose,data,0,0,3
+Xmake,programming,0,0,1
