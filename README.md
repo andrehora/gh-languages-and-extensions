@@ -4,7 +4,9 @@ Comprehensive dataset of 800+ languages and their extensions extracted from [Git
 
 Data is extracted from GitHub Linguist [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
 
-## Basic
+## Data
+
+### Basic
 
 <!-- gh:start -->
 | File | Count | Description |
@@ -13,7 +15,9 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 | [`gh_extensions.txt`](data/gh_extensions.txt) | 1448 | Language extensions known to GitHub |
 <!-- gh:end -->
 
-## Language and Extensions
+### Language and Extensions
+
+Popular GitHub languages comes from GitHub Linguist [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
 <!-- summary:start -->
 | File | Count | Description |
@@ -22,10 +26,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 | [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | 25 | Popular languages and extensions |
 <!-- summary:end -->
 
-> [!NOTE]
-> Popular GitHub languages comes from GitHub Linguist [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
-
-## Language and Extensions per Type
+### Language and Extensions by Type
 
 <!-- types:start -->
 | File | Count | Description |
