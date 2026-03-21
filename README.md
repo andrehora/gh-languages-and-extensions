@@ -4,10 +4,7 @@ Comprehensive dataset of 800+ languages and their extensions extracted from [Git
 
 Data is extracted from GitHub Linguist [languages.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
 
-
-## Data
-
-### Basic
+## Basic
 
 <!-- gh:start -->
 | File | Count | Description |
@@ -16,7 +13,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 | [`gh_extensions.txt`](data/gh_extensions.txt) | 1448 | Language extensions known to GitHub |
 <!-- gh:end -->
 
-### Language and Extensions
+## Language and Extensions
 
 <!-- summary:start -->
 | File | Count | Description |
@@ -28,7 +25,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 > [!NOTE]
 > Popular GitHub languages comes from GitHub Linguist [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
-### Language and Extensions per Type: programming, data, markup, or prose
+## Language and Extensions per Type
 
 <!-- types:start -->
 | File | Count | Description |
@@ -45,57 +42,6 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 - `aliases`: List of additional aliases (optional).
 - `filenames`: List of associated filenames. May be omitted if the extensions field is present (and vice versa).
 - `extensions`: List of associated file extensions.
-
-#### type: programming
-
-```json
-{
-  "Python": {
-    "type": "programming",
-    "aliases": ["py", "py3", "python3", "rusthon"],
-    "extensions": [".py", ".cgi", ".fcgi", ".gyp", ".gypi", ".lmi", ".py3", ".pyde", ".pyi", ".pyp", ".pyt", ".pyw", ".rpy", ".spec", ".tac", ".wsgi", ".xpy"],
-    "filenames": [".gclient", "DEPS", "SConscript", "SConstruct", "wscript"]
-  }
-}
-```
-
-#### type: data
-
-```json
-{
-  "JSON": {
-    "type": "data",
-    "aliases": ["geojson", "jsonl", "sarif", "topojson"],
-    "extensions": [".json", ".4DForm", ".4DProject", ".avsc", ".geojson", ".gltf", ".har", ".ice", ".JSON-tmLanguage", ".json.example", ".jsonl", ".mcmeta", ".sarif", ".tfstate", ".tfstate.backup", ".topojson", ".webapp", ".webmanifest", ".yy", ".yyp"],
-    "filenames": [".all-contributorsrc", ".arcconfig", ".auto-changelog", ".c8rc", ".htmlhintrc", ".imgbotconfig", ".nycrc", ".tern-config", ".tern-project", ".watchmanconfig", "MODULE.bazel.lock", "Package.resolved", "Pipfile.lock", "composer.lock", "deno.lock", "flake.lock", "mcmod.info"]
-  }
-}
-```
-
-#### type: markup
-
-```json
-{
-  "HTML": {
-    "type": "markup",
-    "aliases": ["xhtml"],
-    "extensions": [".html", ".hta", ".htm", ".html.hl", ".inc", ".xht", ".xhtml"]
-  }
-}
-```
-
-#### type: prose
-
-```json
-{
-  "Markdown": {
-    "type": "prose",
-    "aliases": ["md", "pandoc"],
-    "extensions": [".md", ".livemd", ".markdown", ".mdown", ".mdwn", ".mkd", ".mkdn", ".mkdown", ".ronn", ".scd", ".workbook"],
-    "filenames": ["contents.lr"]
-  }
-}
-```
 
 ## Fun Facts
 
@@ -149,6 +95,59 @@ See: [`stats_languages_by_aliases.csv`](data/stats_languages_by_aliases.csv)
 | Adblock Filter List | data | 4 |
 | Adobe Font Metrics | data | 4 |
 | Batchfile | programming | 4 |
+
+## Examples
+
+#### type: programming
+
+```json
+{
+  "Python": {
+    "type": "programming",
+    "aliases": ["py", "py3", "python3", "rusthon"],
+    "extensions": [".py", ".cgi", ".fcgi", ".gyp", ".gypi", ".lmi", ".py3", ".pyde", ".pyi", ".pyp", ".pyt", ".pyw", ".rpy", ".spec", ".tac", ".wsgi", ".xpy"],
+    "filenames": [".gclient", "DEPS", "SConscript", "SConstruct", "wscript"]
+  }
+}
+```
+
+#### type: data
+
+```json
+{
+  "JSON": {
+    "type": "data",
+    "aliases": ["geojson", "jsonl", "sarif", "topojson"],
+    "extensions": [".json", ".4DForm", ".4DProject", ".avsc", ".geojson", ".gltf", ".har", ".ice", ".JSON-tmLanguage", ".json.example", ".jsonl", ".mcmeta", ".sarif", ".tfstate", ".tfstate.backup", ".topojson", ".webapp", ".webmanifest", ".yy", ".yyp"],
+    "filenames": [".all-contributorsrc", ".arcconfig", ".auto-changelog", ".c8rc", ".htmlhintrc", ".imgbotconfig", ".nycrc", ".tern-config", ".tern-project", ".watchmanconfig", "MODULE.bazel.lock", "Package.resolved", "Pipfile.lock", "composer.lock", "deno.lock", "flake.lock", "mcmod.info"]
+  }
+}
+```
+
+#### type: markup
+
+```json
+{
+  "HTML": {
+    "type": "markup",
+    "aliases": ["xhtml"],
+    "extensions": [".html", ".hta", ".htm", ".html.hl", ".inc", ".xht", ".xhtml"]
+  }
+}
+```
+
+#### type: prose
+
+```json
+{
+  "Markdown": {
+    "type": "prose",
+    "aliases": ["md", "pandoc"],
+    "extensions": [".md", ".livemd", ".markdown", ".mdown", ".mdwn", ".mkd", ".mkdn", ".mkdown", ".ronn", ".scd", ".workbook"],
+    "filenames": ["contents.lr"]
+  }
+}
+```
 
 ## Generating the Dataset
 
