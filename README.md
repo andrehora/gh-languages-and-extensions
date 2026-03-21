@@ -97,7 +97,7 @@ See: [`stats_languages_by_aliases.csv`](data/stats_languages_by_aliases.csv)
 | Adobe Font Metrics | data | 4 |
 | Batchfile | programming | 4 |
 
-## Examples
+## JSON Examples
 
 ### type: programming
 
