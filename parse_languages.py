@@ -34,7 +34,9 @@ def parse_languages():
     write_gh_extensions_txt(all_langs)
     write_gh_languages_txt(all_langs)
 
-    write_stats_languages_csv(all_langs)
+    write_stats_languages_by_aliases_csv(all_langs)
+    write_stats_languages_by_extensions_csv(all_langs)
+    write_stats_languages_by_filenames_csv(all_langs)
     write_stats_csv(type_counts)
     write_readme(type_counts, popular_names, all_langs)
 
@@ -183,14 +185,36 @@ def write_gh_languages_txt(all_langs):
     print(f"Wrote {filepath} ({len(all_names)} languages)")
 
 
-def write_stats_languages_csv(all_langs):
-    filename = "stats_languages.csv"
+def write_stats_languages_by_aliases_csv(all_langs):
+    filename = "stats_languages_by_aliases.csv"
     filepath = Path(OUTPUT_DIR) / filename
     rows = sorted(
-        [(lang["name"], lang["type"], len(lang["extensions"]), len(lang["aliases"]), len(lang["filenames"])) for lang in all_langs],
+        [(lang["name"], lang["type"], len(lang["aliases"]), len(lang["extensions"]), len(lang["filenames"])) for lang in all_langs],
         key=lambda r: (-r[2], r[0].lower())
     )
-    _write_csv(filepath, ["language", "type", "extensions_count", "aliases_count", "filenames_count"], rows)
+    _write_csv(filepath, ["language", "type", "aliases_count", "extensions_count", "filenames_count"], rows)
+    print(f"Wrote {filepath} ({len(rows)} languages)")
+
+
+def write_stats_languages_by_extensions_csv(all_langs):
+    filename = "stats_languages_by_extensions.csv"
+    filepath = Path(OUTPUT_DIR) / filename
+    rows = sorted(
+        [(lang["name"], lang["type"], len(lang["aliases"]), len(lang["extensions"]), len(lang["filenames"])) for lang in all_langs],
+        key=lambda r: (-r[3], r[0].lower())
+    )
+    _write_csv(filepath, ["language", "type", "aliases_count", "extensions_count", "filenames_count"], rows)
+    print(f"Wrote {filepath} ({len(rows)} languages)")
+
+
+def write_stats_languages_by_filenames_csv(all_langs):
+    filename = "stats_languages_by_filenames.csv"
+    filepath = Path(OUTPUT_DIR) / filename
+    rows = sorted(
+        [(lang["name"], lang["type"], len(lang["aliases"]), len(lang["extensions"]), len(lang["filenames"])) for lang in all_langs],
+        key=lambda r: (-r[4], r[0].lower())
+    )
+    _write_csv(filepath, ["language", "type", "aliases_count", "extensions_count", "filenames_count"], rows)
     print(f"Wrote {filepath} ({len(rows)} languages)")
 
 

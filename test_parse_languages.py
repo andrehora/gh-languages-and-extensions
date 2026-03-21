@@ -175,13 +175,18 @@ def test_lang_type_csv_columns(parsed_data):
     assert header == ["language", "aliases", "extensions", "filenames"]
 
 
-def test_lang_stats_csv_columns(parsed_data):
+@pytest.mark.parametrize("filename", [
+    "stats_languages_by_aliases.csv",
+    "stats_languages_by_extensions.csv",
+    "stats_languages_by_filenames.csv",
+])
+def test_lang_stats_csv_columns(parsed_data, filename):
     import csv
     _, _, _, _, tmp = parsed_data
-    with open(tmp / "stats_languages.csv") as f:
+    with open(tmp / filename) as f:
         reader = csv.reader(f)
         header = next(reader)
-    assert header == ["language", "type", "extensions_count", "aliases_count", "filenames_count"]
+    assert header == ["language", "type", "aliases_count", "extensions_count", "filenames_count"]
 
 
 def test_lang_popular_csv_columns(parsed_data):
@@ -228,7 +233,9 @@ CSV_FILES = [
     "languages_markup.csv",
     "languages_prose.csv",
     "languages_popular.csv",
-    "stats_languages.csv",
+    "stats_languages_by_aliases.csv",
+    "stats_languages_by_extensions.csv",
+    "stats_languages_by_filenames.csv",
     "stats.csv",
 ]
 
