@@ -41,8 +41,8 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 
 ## Fields
 
-- `type`: Either `programming` (e.g., Python), `data` (e.g., JSON), `markup` (e.g., HTML) or `prose` (e.g., Markdown).
-- `aliases`: List of additional aliases (optional)
+- `type`: programming (e.g., Python), data (e.g., JSON), markup (e.g., HTML) or prose (e.g., Markdown).
+- `aliases`: List of additional aliases (optional).
 - `filenames`: List of associated filenames. May be omitted if the extensions field is present (and vice versa).
 - `extensions`: List of associated file extensions.
 
@@ -53,7 +53,8 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
   "Python": {
     "type": "programming",
     "aliases": ["py", "py3", "python3", "rusthon"],
-    "extensions": [".py", ".cgi", ".fcgi", ".gyp", ".gypi", ".lmi", ".py3", ".pyde", ".pyi", ".pyp", ".pyt", ".pyw", ".rpy", ".spec", ".tac", ".wsgi", ".xpy"]
+    "extensions": [".py", ".cgi", ".fcgi", ".gyp", ".gypi", ".lmi", ".py3", ".pyde", ".pyi", ".pyp", ".pyt", ".pyw", ".rpy", ".spec", ".tac", ".wsgi", ".xpy"],
+    "filenames": [".gclient", "DEPS", "SConscript", "SConstruct", "wscript"]
   }
 }
 ```
@@ -65,7 +66,8 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
   "JSON": {
     "type": "data",
     "aliases": ["geojson", "jsonl", "sarif", "topojson"],
-    "extensions": [".json", ".avsc", ".geojson", ".gltf", ".har", ".ice", ".jsonl", ".mcmeta", ".sarif", ".tfstate", ".topojson", ".webapp", ".webmanifest", ".yy", ".yyp"]
+    "extensions": [".json", ".4DForm", ".4DProject", ".avsc", ".geojson", ".gltf", ".har", ".ice", ".JSON-tmLanguage", ".json.example", ".jsonl", ".mcmeta", ".sarif", ".tfstate", ".tfstate.backup", ".topojson", ".webapp", ".webmanifest", ".yy", ".yyp"],
+    "filenames": [".all-contributorsrc", ".arcconfig", ".auto-changelog", ".c8rc", ".htmlhintrc", ".imgbotconfig", ".nycrc", ".tern-config", ".tern-project", ".watchmanconfig", "MODULE.bazel.lock", "Package.resolved", "Pipfile.lock", "composer.lock", "deno.lock", "flake.lock", "mcmod.info"]
   }
 }
 ```
@@ -77,7 +79,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
   "HTML": {
     "type": "markup",
     "aliases": ["xhtml"],
-    "extensions": [".html", ".hta", ".htm", ".inc", ".xht", ".xhtml"]
+    "extensions": [".html", ".hta", ".htm", ".html.hl", ".inc", ".xht", ".xhtml"]
   }
 }
 ```
@@ -89,7 +91,8 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
   "Markdown": {
     "type": "prose",
     "aliases": ["md", "pandoc"],
-    "extensions": [".md", ".livemd", ".markdown", ".mdown", ".mdwn", ".mkd", ".mkdn", ".mkdown", ".ronn", ".scd", ".workbook"]
+    "extensions": [".md", ".livemd", ".markdown", ".mdown", ".mdwn", ".mkd", ".mkdn", ".mkdown", ".ronn", ".scd", ".workbook"],
+    "filenames": ["contents.lr"]
   }
 }
 ```
