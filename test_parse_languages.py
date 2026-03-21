@@ -242,6 +242,8 @@ CSV_FILES = [
 TXT_FILES = [
     "gh_extensions.txt",
     "gh_languages.txt",
+    "gh_aliases.txt",
+    "gh_filenames.txt",
 ]
 
 
@@ -267,5 +269,9 @@ def test_readme_updated(parsed_data):
         assert str(type_counts[t]) in content
     gh_languages_count = len({lang["name"] for lang in all_langs})
     gh_extensions_count = len({ext for lang in all_langs for ext in lang["extensions"]})
+    gh_aliases_count = len({alias for lang in all_langs for alias in lang["aliases"]})
+    gh_filenames_count = len({fn for lang in all_langs for fn in lang["filenames"]})
     assert str(gh_languages_count) in content
     assert str(gh_extensions_count) in content
+    assert str(gh_aliases_count) in content
+    assert str(gh_filenames_count) in content

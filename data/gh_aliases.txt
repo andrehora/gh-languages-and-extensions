@@ -1,0 +1,413 @@
+AFDKO
+AutoIt3
+AutoItScript
+Cabal
+Caddy
+Carto
+CoNLL
+CoNLL-X
+Containerfile
+Dlang
+Earthfile
+FIGfont
+Git Blame Ignore Revs
+HashiCorp Configuration Language
+IPython Notebook
+Justfile
+NeoSnippet
+Protocol Buffers
+Rscript
+SELinux Kernel Policy Language
+SnipMate
+Tabular Model Definition Language
+UltiSnip
+UltiSnips
+Ur
+Ur/Web
+Workflow Description Language
+abl
+abuild
+acfm
+ackrc
+aconf
+actionscript 3
+actionscript3
+ad block
+ad block filters
+ada2005
+ada95
+adb
+adblock
+adobe composite font metrics
+adobe multiple font metrics
+advpl
+ags
+ahk
+altium
+amfm
+amusewiki
+apache
+apkbuild
+apples
+arexx
+as3
+ascii stl
+asm
+asp
+aspx
+aspx-vb
+ats2
+au3
+autoconf
+b3d
+bash
+bash session
+basic for android
+bat
+batch
+bazel
+be
+bh
+blitz3d
+blitzplus
+bluespec bsv
+bluespec classic
+bmax
+bplus
+bro
+bsdmake
+bsv
+byond
+bzl
+c++-objdump
+c2hs
+cake
+cakescript
+cask
+cds
+cfc
+cfm
+cfml
+checksum
+chpl
+classic qbasic
+classic quickbasic
+classic visual basic
+clipper
+coccinelle
+coffee
+coffee-script
+coldfusion html
+commit
+console
+coq
+cperl
+cpp
+cron
+cron table
+csharp
+csound-csd
+csound-orc
+csound-sco
+cucumber
+curlrc
+cwl
+d2lang
+dcl
+delphi
+django
+dosbatch
+dosini
+dpatch
+dtrace-script
+eask
+ecmarkdown
+ecr
+editor-config
+eeschema schematic
+eex
+electronic business card
+elisp
+emacs
+emacs muse
+email
+eml
+envrc
+erb
+esdl
+fb
+flex
+foxpro
+fsharp
+fstar
+ftl
+fundamental
+gas
+gemtext
+geojson
+gf
+git-ignore
+gitattributes
+gitconfig
+gitignore
+gitmodules
+gjs
+gnu asm
+go mod
+go sum
+go work
+go work sum
+go.mod
+go.sum
+go.work
+go.work.sum
+golang
+gotmpl
+groff
+gsp
+gts
+hash
+hashes
+hbs
+heex
+help
+hls playlist
+hosts
+html+django
+html+jinja
+html+ruby
+htmlbars
+htmldjango
+hylang
+i7
+iCal
+ignore
+igor
+igorpro
+ijm
+ile rpg
+inc
+inform7
+inputrc
+irc
+irc logs
+java server page
+jruby
+js
+jsonc
+jsonl
+jsp
+jte
+kak
+kakscript
+keyvalues
+ksy
+lassoscript
+latex
+lean4
+leex
+less-css
+lhaskell
+lhs
+lisp
+litcoffee
+live-script
+ls
+m2
+m3u playlist
+m68k
+macruby
+mail
+make
+man
+man page
+man-page
+manpage
+markojs
+mathematica
+max/msp
+maxmsp
+mbox
+md
+mdoc
+mediawiki
+mermaid example
+mf
+mma
+mps
+mumps
+nargo
+nasm
+ne-on
+nette object notation
+nginx configuration file
+nixos
+njk
+node
+npmrc
+nroff
+nu-script
+nush
+nushell-script
+nvim
+oasv2
+oasv3
+obj-c
+obj-c++
+obj-j
+objc
+objc++
+objectivec
+objectivec++
+objectivej
+objectpascal
+objj
+octave
+odin-lang
+odinlang
+omnetpp-msg
+omnetpp-ned
+oncrpc
+openedge
+openrc
+opentofu
+opts
+osascript
+pandoc
+pasm
+pcbnew
+perl-6
+perl6
+pikchr
+pir
+plain text
+posh
+postscr
+pot
+pov-ray
+povray
+progress
+proto
+protobuf
+protobuf text format
+pwsh
+py
+py3
+pycon
+pyrex
+python3
+qb
+qb64
+qbasic
+ql
+qsharp
+ragel-rb
+ragel-ruby
+rake
+raw
+razor
+rb
+rbx
+readline
+red/system
+redirects
+regex
+regexp
+renpy
+rhtml
+robots
+robots txt
+rocq
+rosmsg
+rpcgen
+rs
+rs-274x
+rss
+rst
+rusthon
+salt
+saltstate
+sarif
+sdc
+sepolicy
+sfv
+sh
+shell-script
+shellcheckrc
+sml
+snakefile
+snippet
+sourcemod
+soy
+specfile
+splus
+sqlrpgle
+squeak
+ssh_config
+sshconfig
+sshd_config
+sshdconfig
+stla
+sum
+sums
+surql
+tab-seperated values
+terraform
+text proto
+tl
+tm-properties
+topojson
+torrc
+traveling salesman problem
+travelling salesman problem
+troff
+ts
+tsp
+tsq
+typ
+typescriptreact
+udiff
+unix asm
+vb .net
+vb 6
+vb.net
+vb6
+vbnet
+vdf
+velocity
+vim
+vimhelp
+viml
+vimscript
+virtual contact file
+visual basic
+visual basic 6
+visual basic classic
+visual basic for applications
+vlang
+vtl
+vtt
+wasm
+wast
+wgetrc
+wiki
+winbatch
+wit
+wl
+wolfram
+wolfram lang
+wrenlang
+wsdl
+xbm
+xdc
+xdr
+xhtml
+xml+genshi
+xml+kid
+xpm
+xsd
+xsl
+xten
+yas
+yml
+zsh

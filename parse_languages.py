@@ -33,6 +33,8 @@ def parse_languages():
 
     write_gh_extensions_txt(all_langs)
     write_gh_languages_txt(all_langs)
+    write_gh_aliases_txt(all_langs)
+    write_gh_filenames_txt(all_langs)
 
     write_stats_languages_by_aliases_csv(all_langs)
     write_stats_languages_by_extensions_csv(all_langs)
@@ -185,6 +187,22 @@ def write_gh_languages_txt(all_langs):
     print(f"Wrote {filepath} ({len(all_names)} languages)")
 
 
+def write_gh_aliases_txt(all_langs):
+    filename = "gh_aliases.txt"
+    filepath = Path(OUTPUT_DIR) / filename
+    all_aliases = sorted({alias for lang in all_langs for alias in lang["aliases"]})
+    filepath.write_text("\n".join(all_aliases) + "\n")
+    print(f"Wrote {filepath} ({len(all_aliases)} aliases)")
+
+
+def write_gh_filenames_txt(all_langs):
+    filename = "gh_filenames.txt"
+    filepath = Path(OUTPUT_DIR) / filename
+    all_filenames = sorted({fn for lang in all_langs for fn in lang["filenames"]})
+    filepath.write_text("\n".join(all_filenames) + "\n")
+    print(f"Wrote {filepath} ({len(all_filenames)} filenames)")
+
+
 def write_stats_languages_by_aliases_csv(all_langs):
     filename = "stats_languages_by_aliases.csv"
     filepath = Path(OUTPUT_DIR) / filename
@@ -233,19 +251,23 @@ def write_readme(type_counts, popular_names, all_langs):
 
     gh_languages_count = len({lang["name"] for lang in all_langs})
     gh_extensions_count = len({ext for lang in all_langs for ext in lang["extensions"]})
+    gh_aliases_count = len({alias for lang in all_langs for alias in lang["aliases"]})
+    gh_filenames_count = len({fn for lang in all_langs for fn in lang["filenames"]})
     gh_rows = (
         "| File | Count | Description |\n"
         "|------|-------|-------------|\n"
         f"| [`gh_languages.txt`](data/gh_languages.txt) | {gh_languages_count} | Languages known to GitHub |\n"
-        f"| [`gh_extensions.txt`](data/gh_extensions.txt) | {gh_extensions_count} | Language extensions known to GitHub |"
+        f"| [`gh_extensions.txt`](data/gh_extensions.txt) | {gh_extensions_count} | Extensions known to GitHub |\n"
+        f"| [`gh_aliases.txt`](data/gh_aliases.txt) | {gh_aliases_count} | Language aliases known to GitHub |\n"
+        f"| [`gh_filenames.txt`](data/gh_filenames.txt) | {gh_filenames_count} | Filenames known to GitHub |"
     )
     content = _replace_between(content, "<!-- gh:start -->", "<!-- gh:end -->", gh_rows)
 
     summary_rows = (
         "| File | Count | Description |\n"
         "|------|-------|-------------|\n"
-        f"| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | {total} | Languages and extensions |\n"
-        f"| [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | {len(popular_names)} | Popular languages and extensions |"
+        f"| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | {total} | All languages |\n"
+        f"| [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | {len(popular_names)} | Popular languages |"
     )
     content = _replace_between(content, "<!-- summary:start -->", "<!-- summary:end -->", summary_rows)
 

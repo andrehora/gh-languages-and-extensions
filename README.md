@@ -12,21 +12,23 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 | File | Count | Description |
 |------|-------|-------------|
 | [`gh_languages.txt`](data/gh_languages.txt) | 804 | Languages known to GitHub |
-| [`gh_extensions.txt`](data/gh_extensions.txt) | 1448 | Language extensions known to GitHub |
+| [`gh_extensions.txt`](data/gh_extensions.txt) | 1448 | Extensions known to GitHub |
+| [`gh_aliases.txt`](data/gh_aliases.txt) | 413 | Language aliases known to GitHub |
+| [`gh_filenames.txt`](data/gh_filenames.txt) | 399 | Filenames known to GitHub |
 <!-- gh:end -->
 
-### Language and Extensions
+### Languages
 
 Popular GitHub languages comes from GitHub Linguist [popular.yml](https://github.com/github-linguist/linguist/blob/main/lib/linguist/popular.yml).
 
 <!-- summary:start -->
 | File | Count | Description |
 |------|-------|-------------|
-| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | 804 | Languages and extensions |
-| [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | 25 | Popular languages and extensions |
+| [`languages.json`](data/languages.json) / [`csv`](data/languages.csv) | 804 | All languages |
+| [`languages_popular.json`](data/languages_popular.json) / [`csv`](data/languages_popular.csv) | 25 | Popular languages |
 <!-- summary:end -->
 
-### Language and Extensions by Type
+### Languages by Type
 
 <!-- types:start -->
 | File | Count | Description |
