@@ -46,7 +46,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 - `filenames`: List of associated filenames. May be omitted if the extensions field is present (and vice versa).
 - `extensions`: List of associated file extensions.
 
-#### programming
+#### type: programming
 
 ```json
 {
@@ -59,7 +59,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 }
 ```
 
-#### data
+#### type: data
 
 ```json
 {
@@ -72,7 +72,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 }
 ```
 
-#### markup
+#### type: markup
 
 ```json
 {
@@ -84,7 +84,7 @@ Data is extracted from GitHub Linguist [languages.yml](https://github.com/github
 }
 ```
 
-#### prose
+#### type: prose
 
 ```json
 {

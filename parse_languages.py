@@ -80,7 +80,8 @@ def write_type_files_json(by_type):
             entry = {}
             if lang["aliases"]:
                 entry["aliases"] = lang["aliases"]
-            entry["extensions"] = lang["extensions"]
+            if lang["extensions"]:
+                entry["extensions"] = lang["extensions"]
             if lang["filenames"]:
                 entry["filenames"] = lang["filenames"]
             type_data[lang["name"]] = entry
@@ -109,7 +110,8 @@ def write_languages_json(all_langs):
         entry = {"type": lang["type"]}
         if lang["aliases"]:
             entry["aliases"] = lang["aliases"]
-        entry["extensions"] = lang["extensions"]
+        if lang["extensions"]:
+            entry["extensions"] = lang["extensions"]
         if lang["filenames"]:
             entry["filenames"] = lang["filenames"]
         langs[lang["name"]] = entry
@@ -142,7 +144,8 @@ def write_languages_popular_json(all_langs, popular_names):
         entry = {"type": lang["type"]}
         if lang["aliases"]:
             entry["aliases"] = lang["aliases"]
-        entry["extensions"] = lang["extensions"]
+        if lang["extensions"]:
+            entry["extensions"] = lang["extensions"]
         if lang["filenames"]:
             entry["filenames"] = lang["filenames"]
         popular[name] = entry

@@ -145,13 +145,25 @@ def test_lang_type_entry_fields(parsed_data):
 def test_lang_type_entry_filenames(parsed_data):
     import json
     _, _, _, _, tmp = parsed_data
-    # Makefile has filenames in languages.yml
-    data = json.loads((tmp / "languages_data.json").read_text())
+    # Makefile (programming) has both extensions and filenames
+    data = json.loads((tmp / "languages_programming.json").read_text())
     makefile_entry = data.get("Makefile")
     if makefile_entry:
         assert "filenames" in makefile_entry
+        assert "extensions" in makefile_entry
         keys = list(makefile_entry.keys())
         assert keys.index("extensions") < keys.index("filenames")
+
+
+def test_lang_entry_no_extensions_omitted(parsed_data):
+    import json
+    _, _, _, _, tmp = parsed_data
+    # Alpine Abuild has filenames but no extensions
+    data = json.loads((tmp / "languages_programming.json").read_text())
+    entry = data.get("Alpine Abuild")
+    if entry:
+        assert "filenames" in entry
+        assert "extensions" not in entry
 
 
 def test_lang_type_csv_columns(parsed_data):
