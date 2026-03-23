@@ -18,6 +18,9 @@ def parsed_data(tmp_path_factory):
     original_readme_path = parse_languages.README_PATH
     tmp_readme = tmp / "README.md"
     tmp_readme.write_text(
+        "<!-- updated -->\n"
+        "old date\n"
+        "<!-- /updated -->\n"
         "<!-- gh:start -->\n"
         "| File | Count | Description |\n"
         "|------|-------|-------------|\n"
