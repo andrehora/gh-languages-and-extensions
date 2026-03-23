@@ -2,7 +2,7 @@ name: Update Data
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # Weekly on Monday
+    - cron: '0 17 * * *'  # Daily at 14:00 BRT (UTC-3)
   workflow_dispatch:
 
 permissions:
@@ -35,3 +35,4 @@ jobs:
           body: 'Automated update of language data.'
           branch: update-language-data
           delete-branch: true
+          labels: update-data

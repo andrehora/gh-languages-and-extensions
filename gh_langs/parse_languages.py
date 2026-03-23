@@ -291,8 +291,8 @@ def write_readme(type_counts, popular_names, all_langs):
 
 
 def _replace_between(text, start_marker, end_marker, replacement):
-    start = text.index(start_marker) + len(start_marker) + 1
-    end = text.index(end_marker) - 1
+    start = text.index(start_marker) + len(start_marker)
+    end = text.index(end_marker)
     return text[:start] + replacement + text[end:]
 
 
