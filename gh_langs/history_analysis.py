@@ -8,8 +8,8 @@ VERSIONS_URL = "https://data.jsdelivr.com/v1/packages/gh/github-linguist/linguis
 LANGUAGES_URL = "https://cdn.jsdelivr.net/gh/github-linguist/linguist@{version}/lib/linguist/languages.yml"
 OUTPUT_FILE = "data/history_analysis.csv"
 VERSION_MIN = Version("1.0.0")
-# VERSION_MAX = Version("9.5.0")
-VERSION_MAX = Version("5.0.0")
+VERSION_MAX = Version("9.5.0")
+# VERSION_MAX = Version("5.0.0")
 
 
 def fetch_versions():
