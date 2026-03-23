@@ -245,9 +245,13 @@ def write_stats_csv(type_counts):
 
 
 def write_readme(type_counts, popular_names, all_langs):
+    from datetime import date
     readme = Path(README_PATH)
     total = sum(type_counts.values())
     content = readme.read_text()
+
+    today = date.today().strftime("%Y-%m-%d")
+    content = _replace_between(content, "<!-- updated -->", "<!-- /updated -->", f"Updated: {today}")
 
     gh_languages_count = len({lang["name"] for lang in all_langs})
     gh_extensions_count = len({ext for lang in all_langs for ext in lang["extensions"]})
