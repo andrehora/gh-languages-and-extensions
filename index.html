@@ -304,9 +304,9 @@ function matchToken(field, q) {
   var parts = field.split(';');
   for (var i = 0; i < parts.length; i++) {
     var t = parts[i].trim();
-    if (t && t.toLowerCase().indexOf(q) !== -1) return t;
+    if (t && t.toLowerCase().indexOf(q) === 0) return t;
   }
-  return field;
+  return null;
 }
 
 function search(q) {
@@ -314,10 +314,10 @@ function search(q) {
   var ql = q.toLowerCase(), res = [];
   for (var i = 0; i < data.length; i++) {
     var r = data[i], m = null;
-    if ((r.language || '').toLowerCase().indexOf(ql) !== -1) m = '';
-    else if ((r.aliases || '').toLowerCase().indexOf(ql) !== -1) m = 'alias: ' + matchToken(r.aliases, ql);
-    else if ((r.extensions || '').toLowerCase().indexOf(ql) !== -1) m = 'ext: ' + matchToken(r.extensions, ql);
-    else if ((r.filenames || '').toLowerCase().indexOf(ql) !== -1) m = 'file: ' + matchToken(r.filenames, ql);
+    if ((r.language || '').toLowerCase().indexOf(ql) === 0) m = '';
+    else if (matchToken(r.aliases || '', ql) !== null) m = 'alias: ' + matchToken(r.aliases, ql);
+    else if (matchToken(r.extensions || '', ql) !== null) m = 'ext: ' + matchToken(r.extensions, ql);
+    else if (matchToken(r.filenames || '', ql) !== null) m = 'file: ' + matchToken(r.filenames, ql);
     if (m !== null) res.push({ r: r, m: m });
     if (res.length >= 15) break;
   }
